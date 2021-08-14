@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/projects/2020/08/14/cnewsum-dataset/</loc>
+<loc>http://localhost:4000/blogs/HSG/</loc>
+<lastmod>2020-05-06T15:32:00+08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogs/CNewSum/</loc>
 <lastmod>2020-08-14T15:32:00+08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2020/09/29/welcome-to-not-pure-poole/</loc>
-<lastmod>2020-10-01T01:08:25+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2020/10/01/releasing-not-pure-poole-v0-1-0/</loc>
-<lastmod>2020-10-01T13:56:00+08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2020/10/02/testing-mathjax/</loc>
-<lastmod>2020-10-02T15:32:00+08:00</lastmod>
+<loc>http://localhost:4000/blogs/CALMS/</loc>
+<lastmod>2021-08-08T15:32:00+08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/projects/CALMS/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/projects/CNewSum/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/projects/HSG/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -36,9 +35,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/projects/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/</loc>

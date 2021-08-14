@@ -1,3 +1,6 @@
+- type: categories
+  title: Projects
+  url: /projects/
 - type: dates
   title: Dates
   url: /dates/
@@ -7,9 +10,3 @@
 - type: tags
   title: Tags
   url: /tags/
-- type: categories
-  title: Publications
-  url: /publications/
-- type: categories
-  title: Projects
-  url: /projects/

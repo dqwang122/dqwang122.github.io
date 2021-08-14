@@ -7,23 +7,28 @@ title: Projects
 ### Contrastive Aligned Joint Learning for Multilingual Summarization
 **Danqing Wang**, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
 ByteDance AI Lab, †Fudan University  
-<a href="/projects/CALMS/">[Blog]</a>
-<a href="/projects/CALMS/">[Paper]</a>
-<a href="https://github.com/dqwang122/CALMS">[Code]</a>
+<a href=""><i class="fa fa-file-alt"></i></a>
+<a href="https://github.com/dqwang122/CALMS"><i class="fab fa-github"></i></a>
+<a href=""><i class="fab fa-google-drive"></i></a>
+<a href="/blogs/CALMS/"><i class="fas fa-arrow-circle-right"></i></a>
+
 
 ***
 
 ### CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
 **Danqing Wang**, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
 ByteDance AI Lab, †University of California Santa Barbara  
-<a href="/projects/CNewSum/">[Blog]</a>
-<a href="https://drive.google.com/drive/folders/1yNVrhRvG8DAB3FBjmnynI-v95lrsJNRP?usp=sharing">[Dataset]</a>
+<a href=""><i class="fa fa-file-alt"></i></a>
+<a href="https://drive.google.com/drive/folders/1yNVrhRvG8DAB3FBjmnynI-v95lrsJNRP?usp=sharing"><i class="fab fa-google-drive"></i></a>
+<a href="/projects/CNewSum/"><i class="fas fa-database"></i></a>
+<a href="/blogs/CNewSum/"><i class="fas fa-arrow-circle-right"></i></a>
 
 ***
 
 ### Heterogeneous Graph Neural Networks for Extractive Document Summarization
 **Danqing Wang**, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
-Fudan University
-<a href="https://arxiv.org/abs/2004.12393">[Paper]</a>
-<a href="https://github.com/dqwang122/HeterSumGraph">[Code]</a>
-<a href="/projects/CNewSum/">[Blog]</a>
+Fudan University  
+<a href="https://arxiv.org/abs/2004.12393"><i class="fa fa-file-alt"></i></a>
+<a href="https://github.com/dqwang122/HeterSumGraph"><i class="fab fa-github"></i></a>
+<a href="http://slideslive.com/38929003"><i class="fab fa-youtube"></i></a>
+<a href="/blogs/HSG/"><i class="fas fa-arrow-circle-right"></i></a>

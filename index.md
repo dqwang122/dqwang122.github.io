@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+---
+layout: page-head
+---
 
-You can use the [editor on GitHub](https://github.com/brxx122/dqwang.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to My HomePage !
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am a full-time employee working at ByteDance AI Lab. Before that, I obtained my Master and Bachelor degrees in Computer Science from [Fudan University](https://www.fudan.edu.cn/). I was a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by [Prof. Xipeng Qiu](https://xpqiu.github.io/en.html) and [Prof. Xuanjing Huang](https://nlp.fudan.edu.cn/28702/list.htm).
+My research focuses on Natural Language Processing, especially text summarization. I am also interested in AI methods for drug design.
 
-### Markdown
+## Main Publications
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### May,2021 - Contrastive Aligned Joint Learning for Multilingual Summarization
+***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
+*Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Aug.,2021 - CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
+***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
+*The 10th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC), 2021*
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Apr.,2021 - [Heterogeneous Graph Neural Networks for Extractive Document Summarization](https://arxiv.org/abs/2004.12393)
+***Danqing Wang***, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
+*The 58th Annual Meeting of the Association for Computational Linguistics (ACL), 2020*  
 
-**Bold** and _Italic_ and `Code` text
+### Apr.,2021 - [Extractive Summarization as Text Matching](https://arxiv.org/abs/2004.08795)
+Ming Zhong, Pengfei Liu, Yiran Chen, ***Danqing Wang***, Xipeng Qiu, Xuanjing Huang  
+*The 58th Annual Meeting of the Association for Computational Linguistics (ACL), 2020*
 
-[Link](url) and ![Image](src)
-```
+### Oct.,2019 - [A Closer Look at Data Bias in Neural Extractive Summarization Models](https://arxiv.org/abs/1909.13705)
+Ming Zhong, ***Danqing Wang***, Pengfei Liu, Xipeng Qiu, Xuanjing Huang  
+*Workshop on New Frontiers in Summarization of EMNLP, 2019*
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### May.,2019 - [Searching for Effective Neural Extractive Summarization: What Works and What's Next](https://arxiv.org/pdf/1907.03491)
+Ming Zhong, Pengfei Liu, ***Danqing Wang***, Xipeng Qiu, Xuanjing Huang  
+*The 57th Annual Meeting of the Association for Computational Linguistics (ACL), 2019*  
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/brxx122/dqwang.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### May.,2019 - [Exploring Domain Shift in Extractive Text Summarization](https://arxiv.org/abs/1908.11664)
+***Danqing Wang***, Pengfei Liu, Ming Zhong, Jie Fu, Xipeng Qiu, Xuanjing Huang  
+*arXiv preprint*
