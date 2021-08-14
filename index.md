@@ -10,12 +10,12 @@ My research focuses on Natural Language Processing, especially text summarizatio
 ## Main Publications
 
 ### May,2021 - Contrastive Aligned Joint Learning for Multilingual Summarization
-***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
+***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li   
 *Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
 
 
 ### Aug.,2021 - CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
-***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
+***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li  
 *The 10th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC), 2021*
 
 
