@@ -9,4 +9,4 @@ tags: [Summarization, Dataset]
 
 A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
 
-The dataset is available at <a href="https://drive.google.com/drive/folders/1yNVrhRvG8DAB3FBjmnynI-v95lrsJNRP?usp=sharing">Google Drive</a>.
+The dataset is available at <a href="https://drive.google.com/file/d/1G0TVryoXSWfy1D8_pBZCdtuAzlmCMCnr/view?usp=sharing">Google Drive</a>.
