@@ -1,6 +1,6 @@
 ---
 layout: page-head
-title:   
+title:
 ---
 
 ## Welcome to My HomePage !
@@ -10,7 +10,7 @@ My research focuses on Natural Language Processing, especially text summarizatio
 
 ## Main Publications
 
-### May,2021 - Contrastive Aligned Joint Learning for Multilingual Summarization
+### May,2021 - [Contrastive Aligned Joint Learning for Multilingual Summarization](https://aclanthology.org/2021.findings-acl.242/)
 ***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li   
 *Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
 

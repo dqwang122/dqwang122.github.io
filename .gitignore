@@ -1,3 +1,6 @@
 # dir
 _site/
 .sass-cache/
+
+# file
+.DS_Store

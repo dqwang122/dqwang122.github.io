@@ -1,0 +1,52 @@
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6
+  { font-family: Verdana, Arial, Times New Roman, Microsoft YaHei, '微软雅黑', Tahoma, Helvetica, sans-serif;}
+
+h1 {
+  font-family: Chalkboard;
+}
+
+p {
+  font-family: Chalkboard;
+  font-size: 18px;
+}
+
+table {
+  font-family: Chalkboard;
+}
+
+ul, ol, li {
+  font-family: Verdana, Arial;
+}
+
+.descriptions {
+  font-family: Verdana, Arial;
+}
+
+.dl-horizontal dt {
+  font-family: Chalkboard;
+  width: 90px;
+}
+
+.dl-horizontal dd {
+  font-family: Microsoft YaHei, '微软雅黑';
+  margin-left: 120px;
+}
+
+.panel-head-font {
+  font-family: Chalkboard;
+  font-size:24px;
+}
+
+.panel-subhead-font {
+  font-family: Chalkboard;
+  font-size:20px;
+}
+
+.nav-head-font {
+  font-family: Chalkboard;
+}
+
+.panel-footer-font {
+  font-family: Chalkboard;
+  font-size:14px;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="container pure-g">
+      {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
+      {%- assign cover_color    = site.cover_color    | default: "rgb(255, 255, 255)" -%}
+      {%- assign cover_image    = site.cover_image -%}
+      {%- if page.cover_bg_color -%}
+        {%- assign cover_bg_color  = page.cover_bg_color -%}
+      {%- endif -%}
+      {%- if page.cover_color -%}
+        {%- assign cover_color     = page.cover_color -%}
+      {%- endif -%}
+      {%- if page.cover_image -%}
+        {%- assign cover_image     = page.cover_image -%}
+      {%- endif -%}
+
+      <div class="content pure-u-1 pure-u-md-4-5" style="margin-left: auto;">
+        {%- include content.html -%}
+
+      </div>
+
+
+    </div>
+
+    <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+    {%- include scroll.html -%}
+
+    {%- if page.math -%}
+      {% include mathjax.html %}
+    {%- endif -%}
+
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  </body>
+</html>
