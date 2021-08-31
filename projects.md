@@ -19,7 +19,7 @@ ByteDance AI Lab, †Fudan University
 **Danqing Wang**, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
 ByteDance AI Lab, †University of California Santa Barbara  
 <a href=""><i class="fa fa-file-alt"></i></a>
-<a href="https://drive.google.com/file/d/1G0TVryoXSWfy1D8_pBZCdtuAzlmCMCnr/view?usp=sharing"><i class="fab fa-google-drive"></i></a>
+<a href="https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing"><i class="fab fa-google-drive"></i></a>
 <a href="/projects/CNewSum/"><i class="fas fa-database"></i></a>
 <a href="/blogs/CNewSum/"><i class="fas fa-arrow-circle-right"></i></a>
 
