@@ -19,7 +19,7 @@ title: CNewSum
       <h1 align="center">A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level</h1>
       <h4 align="center"><i>Danqing Wang, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†<br />
       ByteDance AI Lab, †University of California Santa Barbara</i></h4>
-      <p>Paper:<br />
+      <p>Paper: <a href="/assets/papers/CNewSum.pdf">PDF</a><br />
       Dataset: <a href="https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing">Google Drive</a>
 
 			<div class="row-fluid">
@@ -56,7 +56,8 @@ title: CNewSum
 						The <u>'Article'</u> and <u>'Summary'</u> are the average length of articles and summaries in the dataset.
 						For English, it is calculated by words and for Chinese, it is calculated by characters.</p>
 						<!-- basic info -->
-						<table class="table-hover">
+						<div class=table-responsive">
+						<table class="table-hover text-nowrap">
 							<thead>
 								<tr>
 							  <th>Dataet</th>
@@ -153,6 +154,7 @@ title: CNewSum
 							 </tr>
 							</tbody>
 						</table>
+						</div>
 
 						<div class="panel-group" id="panel-parent">
 							<div class="panel panel-default">
@@ -267,37 +269,6 @@ title: CNewSum
 								</div>
 							</div>
 
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									 <a class="panel-title panel-subhead-font collapsed" data-toggle="collapse" data-parent="#panel-parent" href="#panel-element-2">
-											<div class="text-info"> <i class="fa fa-list-alt fa-fw"></i> Adequacy &amp; Deducibility</div>
-										</a>
-								</div>
-								<div id="panel-element-2" class="panel-collapse collapse">
-									<div class="panel-body">
-										<p>Analyzing our dataset, we find that the expert editors often <em><u>perform some reasoning</u></em> or <em><u>add external knowledge</u></em> to make the summary more friendly for the readers.</p>
-										<p>Thus, we defind two metric to evaluate how much knowledge the model needs to generate the human-like summary.</p>
-										<p class="lead">Adequacy</p>
-											<div class="descriptions"><em><u>Does necessary information of the summary has been included in the document?</u></em></div>
-											<div class="descriptions">For example, all words in the summary can be directly found in the document, or they have synonyms or detailed descriptions in the original text. Under these circumstances, the summary is labeled as 1. Otherwise, the summary is labeled as 0.</div>
-											<div style="height:15px"></div>
-										<p class="lead">Deducibility</p>
-										  <div class="descriptions"><em><u>Can the information of the summary be easily inferred from the document?</u></em></div>
-											<div class="descriptions">Unit conversion, number calculation, exchange rates, and name abbreviations that can be inferred are labeled as 1. In contrast, complex conclusions with no direct mentions in the original document are labeled as 0. Here are some cases: </div>
-											<div class="descriptions">
-												<ul>
-													<li>Unit conversion: 4 kg -> 4000 g</li>
-													<li>Number Calculation: 300+1500 -> 1800</li>
-													<li>Exchange Rates: 300 dollar -> 1938 RMB</li>
-													<li>Name Abbreviation: 武汉大学 -> 武大</li>
-												</ul>
-											</div>
-										<div style="height:15px"></div>
-										<p>We carefully recheck our dataset before the release, and get CNewSum version 2 with updated annotations.</p>
-										<p>There are about 91.08% examples are adequate and deducible (A = 1 and D = 1), but the rest lack essential information. For 4.11% examples with A = 0 and D = 1, the information can be inferred from the document. </p>
-									</div>
-								</div>
-							</div>
 						</div>
 						<!-- panel-group -->
 					</div>
@@ -330,66 +301,201 @@ title: CNewSum
 						<tbody>
 							<tr>
 								<td>Lead</td>
-								<td>30.12</td>
-								<td>17.28</td>
-								<td>25.23</td>
+								<td>30.43</td>
+								<td>17.26</td>
+								<td>25.33</td>
 							</tr>
 							<tr>
 								<td>Oracle</td>
-								<td>46.51</td>
-								<td>30.47</td>
-								<td>39.99</td>
+								<td>46.84</td>
+								<td>30.54</td>
+								<td>40.08</td>
 							</tr>
 							<tr class="success">
 								<td><a href="https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">TextRank</a></td>
-								<td>21.55</td>
-								<td>11.94</td>
-								<td>18.20</td>
+								<td>24.04</td>
+								<td>13.07</td>
+								<td>20.08</td>
 							</tr>
 							<tr class="success">
 								<td><a href="https://arxiv.org/pdf/1807.02305">NeuSum</a></td>
-								<td>35.40</td>
-								<td>20.32</td>
-								<td>28.97</td>
+								<td>30.61</td>
+								<td>17.36</td>
+								<td>25.66</td>
 							</tr>
 							<tr class="success">
 								<td><a href="http://arxiv.org/abs/1706.03762">Transformer-ext</a></td>
-								<td>34.89</td>
-								<td>19.90</td>
-								<td>28.60</td>
+								<td>32.87</td>
+								<td>18.85</td>
+								<td>27.59</td>
 							</tr>
 							<tr class="success">
 								<td><a href="http://arxiv.org/abs/1908.08345">BERT-ext</a></td>
-								<td>36.49</td>
-								<td>21.33</td>
-								<td>30.21</td>
+								<td>34.78</td>
+								<td>20.33</td>
+								<td>29.34</td>
 							</tr>
 							<tr class="warning">
 							 <td><a href="http://arxiv.org/abs/1704.04368">Pointer Generator</a></td>
-							 <td>37.60</td>
-							 <td>22.00</td>
-							 <td>31.56</td>
+							 <td>25.70</td>
+							 <td>11.05</td>
+							 <td>19.62</td>
 							</tr>
 							<tr class="warning">
 							 <td><a href="http://arxiv.org/abs/1706.03762">Transformer-abs</a></td>
-							 <td>35.30</td>
-							 <td>16.69</td>
-							 <td>28.31</td>
+							 <td>37.36</td>
+							 <td>18.62</td>
+							 <td>30.62</td>
 							</tr>
 							<tr class="warning">
 							 <td><a href="http://arxiv.org/abs/1908.08345">BERT-abs</a></td>
-							 <td>41.69</td>
-							 <td>24.70</td>
-							 <td>35.05</td>
+							 <td>44.18</td>
+							 <td>27.37</td>
+							 <td>38.32</td>
 							</tr>
 						</tbody>
 					</table>
+
+
 
 					<div class="panel-footer panel-footer-font"> Lead & Oracle | Extractive Models | Abstractive Models</div>
 
 					</div>
 				</div>
 				<!-- panel-danger -->
+
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<div class="panel-head-font"> Adequacy &amp; Deducibility </div>
+					</div>
+					<div class="panel-body">
+							<p>Analyzing our dataset, we find that the expert editors often <em><u>perform some reasoning</u></em> or <em><u>add external knowledge</u></em> to make the summary more friendly for the readers.</p>
+							<p>Thus, we defind two metric to evaluate how much knowledge the model needs to generate the human-like summary.</p>
+							<p class="lead">Adequacy</p>
+								<div class="descriptions"><em><u>Does necessary information of the summary has been included in the document?</u></em></div>
+								<div class="descriptions">For example, all words in the summary can be directly found in the document, or they have synonyms or detailed descriptions in the original text. Under these circumstances, the summary is labeled as 1. Otherwise, the summary is labeled as 0.</div>
+								<div style="height:15px"></div>
+							<p class="lead">Deducibility</p>
+								<div class="descriptions"><em><u>Can the information of the summary be easily inferred from the document?</u></em></div>
+								<div class="descriptions">Unit conversion, number calculation, exchange rates, and name abbreviations that can be inferred are labeled as 1. In contrast, complex conclusions with no direct mentions in the original document are labeled as 0. Here are some cases: </div>
+								<div class="descriptions">
+									<ul>
+										<li>Unit conversion: 4 kg -> 4000 g</li>
+										<li>Number Calculation: 300+1500 -> 1800</li>
+										<li>Exchange Rates: 300 dollar -> 1938 RMB</li>
+										<li>Name Abbreviation: 武汉大学 -> 武大</li>
+									</ul>
+								</div>
+							<div style="height:15px"></div>
+							<p>We carefully recheck our dataset before the release, and get CNewSum version 2 with updated annotations.</p>
+							<p>There are about 91.08% examples are adequate and deducible (A = 1 and D = 1), but the rest lack essential information. For 4.11% examples with A = 0 and D = 1, the information can be inferred from the document. </p>
+
+							<table class="table table-hover">
+						    <thead>
+						        <tr>
+						            <th>Model</th>
+						            <th>Category</th>
+						            <th>R-1</th>
+						            <th>R-2</th>
+						            <th>R-L</th>
+						        </tr>
+						    </thead>
+						    <tbody>
+						        <tr class="warning">
+						            <td>Transformer-ext</td>
+						            <td>A=1&amp;D=1</td>
+						            <td>33.16</td>
+						            <td>19.19</td>
+						            <td>27.88</td>
+						        </tr>
+						        <tr class="warning">
+						            <td></td>
+						            <td>A=0&amp;D=1</td>
+						            <td>30.89</td>
+						            <td>15.60</td>
+						            <td>25.38</td>
+						        </tr>
+						        <tr class="warning">
+						            <td></td>
+						            <td>A=0&amp;D=0</td>
+						            <td>28.92</td>
+						            <td>14.88</td>
+						            <td>23.74</td>
+						        </tr>
+						        <tr class="danger">
+						            <td>Transformer-abs</td>
+						            <td>A=1&amp;D=1</td>
+						            <td>37.54</td>
+						            <td>18.85</td>
+						            <td>30.83</td>
+						        </tr>
+						        <tr class="danger">
+						            <td></td>
+						            <td>A=0&amp;D=1</td>
+						            <td>36.36</td>
+						            <td>16.70</td>
+						            <td>29.63</td>
+						        </tr>
+						        <tr class="danger">
+						            <td></td>
+						            <td>A=0&amp;D=0</td>
+						            <td>34.73</td>
+						            <td>15.95</td>
+						            <td>27.52</td>
+						        </tr>
+						        <tr class="warning">
+						            <td>BERT-ext</td>
+						            <td>A=1&amp;D=1</td>
+						            <td>35.05</td>
+						            <td>20.67</td>
+						            <td>29.62</td>
+						        </tr>
+						        <tr class="warning">
+						            <td></td>
+						            <td>A=0&amp;D=1</td>
+						            <td>32.81</td>
+						            <td>16.90</td>
+						            <td>27.05</td>
+						        </tr>
+						        <tr class="warning">
+						            <td></td>
+						            <td>A=0&amp;D=0</td>
+						            <td>31.07</td>
+						            <td>16.57</td>
+						            <td>25.72</td>
+						        </tr>
+						        <tr class="danger">
+						            <td>Bert-abs</td>
+						            <td>A=1&amp;D=1</td>
+						            <td>44.51</td>
+						            <td>27.76</td>
+						            <td>38.70</td>
+						        </tr>
+						        <tr class="danger">
+						            <td></td>
+						            <td>A=0&amp;D=1</td>
+						            <td>41.75</td>
+						            <td>23.64</td>
+						            <td>35.34</td>
+						        </tr>
+						        <tr class="danger">
+						            <td></td>
+						            <td>A=0&amp;D=0</td>
+						            <td>40.18</td>
+						            <td>23.34</td>
+						            <td>33.60</td>
+						        </tr>
+						    </tbody>
+						</table>
+
+
+
+
+					<div class="panel-footer panel-footer-font"> Adequacy &amp; Deducibility | Extractive Models | Abstractive Models</div>
+
+					</div>
+				</div>
+				<!-- panel-success -->
 
 			</div>
 			<!-- row-fluid -->
