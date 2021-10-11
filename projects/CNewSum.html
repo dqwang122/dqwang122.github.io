@@ -20,7 +20,9 @@ title: CNewSum
       <h4 align="center"><i>Danqing Wang, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†<br />
       ByteDance AI Lab, †University of California Santa Barbara</i></h4>
       <p>Paper: <a href="/assets/papers/CNewSum.pdf">PDF</a><br />
-      Dataset: <a href="https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing">Google Drive</a>
+      Dataset: <a href="https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing">Google Drive</a><br />
+			Evaluate tool: <a href="https://github.com/dqwang122/MLROUGE">MLROUGE</a>
+			(<a href="https://drive.google.com/file/d/1dTqXEzJV4MEcU2NGbbYzAzgMr_nsUez8/view?usp=sharing">Script</a> for NLPCC2017 and NLPCC2018) <br />
 
 			<div class="row-fluid">
 				<div class="panel panel-info">
@@ -276,7 +278,7 @@ title: CNewSum
 				</div>
 				<!-- panel-primary -->
 
-				<div class="panel panel-danger">
+				<div class="panel panel-primary">
 					<div class="panel-heading">
 						<div class="panel-head-font"> Model Performance </div>
 					</div>
@@ -364,7 +366,7 @@ title: CNewSum
 				</div>
 				<!-- panel-danger -->
 
-				<div class="panel panel-success">
+				<div class="panel panel-primary">
 					<div class="panel-heading">
 						<div class="panel-head-font"> Adequacy &amp; Deducibility </div>
 					</div>
@@ -395,9 +397,9 @@ title: CNewSum
 						        <tr>
 						            <th>Model</th>
 						            <th>Category</th>
-						            <th>R-1</th>
-						            <th>R-2</th>
-						            <th>R-L</th>
+						            <th>ROUGE-1</th>
+						            <th>ROUGE-2</th>
+						            <th>ROUGE-L</th>
 						        </tr>
 						    </thead>
 						    <tbody>
@@ -422,21 +424,21 @@ title: CNewSum
 						            <td>14.88</td>
 						            <td>23.74</td>
 						        </tr>
-						        <tr class="danger">
+						        <tr class="success">
 						            <td>Transformer-abs</td>
 						            <td>A=1&amp;D=1</td>
 						            <td>37.54</td>
 						            <td>18.85</td>
 						            <td>30.83</td>
 						        </tr>
-						        <tr class="danger">
+						        <tr class="success">
 						            <td></td>
 						            <td>A=0&amp;D=1</td>
 						            <td>36.36</td>
 						            <td>16.70</td>
 						            <td>29.63</td>
 						        </tr>
-						        <tr class="danger">
+						        <tr class="success">
 						            <td></td>
 						            <td>A=0&amp;D=0</td>
 						            <td>34.73</td>
@@ -464,21 +466,21 @@ title: CNewSum
 						            <td>16.57</td>
 						            <td>25.72</td>
 						        </tr>
-						        <tr class="danger">
+						        <tr class="success">
 						            <td>Bert-abs</td>
 						            <td>A=1&amp;D=1</td>
 						            <td>44.51</td>
 						            <td>27.76</td>
 						            <td>38.70</td>
 						        </tr>
-						        <tr class="danger">
+						        <tr class="success">
 						            <td></td>
 						            <td>A=0&amp;D=1</td>
 						            <td>41.75</td>
 						            <td>23.64</td>
 						            <td>35.34</td>
 						        </tr>
-						        <tr class="danger">
+						        <tr class="success">
 						            <td></td>
 						            <td>A=0&amp;D=0</td>
 						            <td>40.18</td>
