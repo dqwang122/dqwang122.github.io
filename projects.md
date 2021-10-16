@@ -18,7 +18,7 @@ ByteDance AI Lab, †Fudan University
 ### CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
 **Danqing Wang**, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
 ByteDance AI Lab, †University of California Santa Barbara  
-<a href=""><i class="fa fa-file-alt"></i></a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31"><i class="fa fa-file-alt"></i></a>
 <a href="https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing"><i class="fab fa-google-drive"></i></a>
 <a href="/projects/CNewSum/"><i class="fas fa-database"></i></a>
 <a href="/blogs/CNewSum/"><i class="fas fa-arrow-circle-right"></i></a>
