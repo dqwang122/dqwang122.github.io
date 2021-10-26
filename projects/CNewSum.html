@@ -1,6 +1,7 @@
 ---
 layout: project
 title: CNewSum
+cover_bg_color: rgb(241 241 241)
 ---
 
 <!-- Bootstrap Core JS -->
@@ -19,7 +20,8 @@ title: CNewSum
       <h1 align="center">A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level</h1>
       <h4 align="center"><i>Danqing Wang, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†<br />
       ByteDance AI Lab, †University of California Santa Barbara</i></h4>
-      <p>Paper: <a href="https://arxiv.org/abs/2110.10874">PDF</a><br />
+      <p>Paper: Accepted by <a href="https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31">NLPCC2021</a>,
+								draft at <a href="https://arxiv.org/abs/2110.10874">ArXiv</a><br />
       Dataset: <a href="https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing">Google Drive</a><br />
 			Evaluate tool: <a href="https://github.com/dqwang122/MLROUGE">MLROUGE</a>
 			(<a href="https://drive.google.com/file/d/1dTqXEzJV4MEcU2NGbbYzAzgMr_nsUez8/view?usp=sharing">Script</a> for NLPCC2017 and NLPCC2018) <br />
@@ -255,6 +257,7 @@ title: CNewSum
 															<dd>[6]还是因为现在是看脸的时代，09年学会计的时候班上五十个人，3个男生，一直单身。</dd>
 															<dd>[7]我们全班五十六个人只有一个男生。</dd>
 															<dd>[8]讨厌，大家都是姐妹。</dd>
+													  </dl>
 														</div>
 													<div class="tab-pane" id="panel-3">
 														<dl class="dl-horizontal" style="margin-top:10px">
@@ -373,6 +376,8 @@ title: CNewSum
 					<div class="panel-body">
 							<p>Analyzing our dataset, we find that the expert editors often <em><u>perform some reasoning</u></em> or <em><u>add external knowledge</u></em> to make the summary more friendly for the readers.</p>
 							<p>Thus, we defind two metric to evaluate how much knowledge the model needs to generate the human-like summary.</p>
+							<img src="/assets/images/CNewSum/motivation.jpg">
+
 							<p class="lead">Adequacy</p>
 								<div class="descriptions"><em><u>Does necessary information of the summary has been included in the document?</u></em></div>
 								<div class="descriptions">For example, all words in the summary can be directly found in the document, or they have synonyms or detailed descriptions in the original text. Under these circumstances, the summary is labeled as 1. Otherwise, the summary is labeled as 0.</div>
