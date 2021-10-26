@@ -15,7 +15,7 @@ My research focuses on Natural Language Processing, especially text summarizatio
 *Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
 
 
-### Aug.,2021 - CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
+### Aug.,2021 - [CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level](https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31)
 ***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li  
 *The 10th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC), 2021*
 
