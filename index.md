@@ -1,5 +1,6 @@
 ---
 layout: page-head
+permalink: /
 title: Danqing Wang
 ---
 
