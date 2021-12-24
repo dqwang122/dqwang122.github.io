@@ -1,6 +1,6 @@
 - type: categories
   title: Home
-  url: /index/
+  url: /
 - type: categories
   title: Publication
   url: /publications/

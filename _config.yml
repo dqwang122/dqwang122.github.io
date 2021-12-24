@@ -2,10 +2,10 @@
 title: Danqing Wang
 description: 王丹青
 url: https://vszhub.github.io
-avatar: /me.jpg
+avatar: /assets/images/me.jpg
 paginate: 5
 permalink: pretty
-cover_image: /school.jpg
+cover_image: /assets/images/school.jpg
 
 # Gems
 plugins:
