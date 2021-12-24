@@ -4,7 +4,7 @@ layout: default
 
 {% include home-header.html %}
 
-<h1>{{ page.title }}</h1>
+<h2>{{ page.title }}</h2>
 
 {% comment %} Check the type of archive {% endcomment %}
 {%- if page.type == 'categories' -%}
@@ -29,7 +29,7 @@ layout: default
     {%- for i in (1..max_count) reversed -%}
       {%- for taxonomy in taxonomies -%}
         {%- assign taxonomy_name = taxonomy[0] -%}
-        {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
+        {%- assign slugified_taxonomy_name = taxonomy_name -%}
         {%- assign posts = taxonomy[1] -%}
         {%- if posts.size == i -%}
           <li>
@@ -55,7 +55,7 @@ layout: default
 {%- for i in (1..max_count) reversed -%}
   {%- for taxonomy in taxonomies -%}
     {%- assign taxonomy_name = taxonomy[0] -%}
-    {%- assign slugified_taxonomy_name = taxonomy_name | slugify -%}
+    {%- assign slugified_taxonomy_name = taxonomy_name -%}
     {%- assign posts = taxonomy[1] -%}
     {%- if posts.size == i -%}
       <h2 id="{{ slugified_taxonomy_name }}">

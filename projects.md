@@ -4,6 +4,8 @@ permalink: /projects/
 title: Projects
 ---
 
+## Projects
+
 ### Contrastive Aligned Joint Learning for Multilingual Summarization
 **Danqing Wang**, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
 ByteDance AI Lab, †Fudan University  

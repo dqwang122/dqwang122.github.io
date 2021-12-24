@@ -27,6 +27,7 @@
   margin: 0;
   font-size: 2rem;
   font-weight: 900;
+  font-family: var(--text-font);
 
   a:hover,
   a:focus {
@@ -39,6 +40,7 @@
   margin: 0;
   font-size: 1.25rem;
   font-weight: 400;
+  font-family: var(--text-font);
   opacity: .7;
 }
 
@@ -58,6 +60,7 @@
   color: inherit;
   letter-spacing: 0.05em;
   font-size: 90%;
+  font-family: var(--text-font);
   border-bottom: 2px solid;
   border-color: inherit;
 

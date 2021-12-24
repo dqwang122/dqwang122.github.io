@@ -1,12 +1,18 @@
 - type: categories
-  title: Projects
+  title: Home
+  url: /index/
+- type: categories
+  title: Publication
+  url: /publications/
+- type: categories
+  title: Project
   url: /projects/
 - type: dates
-  title: Blogs
+  title: Blog
   url: /blogs/
 #- type: categories
 #  title: Categories
 #  url: /categories/
 - type: tags
-  title: Tags
+  title: Tag
   url: /tags/

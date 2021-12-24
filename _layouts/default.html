@@ -5,7 +5,7 @@
 
   <body>
 
-    <div class="container pure-g">
+    <div class="container">
       {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
       {%- assign cover_color    = site.cover_color    | default: "rgb(255, 255, 255)" -%}
       {%- assign cover_image    = site.cover_image -%}
@@ -22,10 +22,10 @@
         {%- include sidebar-left.html -%}
       </div>
 
-      <div class="content pure-u-1 pure-u-md-3-5">
+      <div class="content pure-u-md-4-8">
         {%- include content.html -%}
       </div>
-      <div class="sidebar-right pure-u-1 pure-u-md-1-8">
+      <div class="sidebar-right pure-u-md-1-8">
         {%- include sidebar-right.html -%}
       </div>
     </div>
