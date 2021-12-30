@@ -8,7 +8,7 @@ title: Danqing Wang
 ## About Me
 
 I am a full-time employee working at ByteDance AI Lab and closely work with [Jiaze Chen](https://cn.linkedin.com/in/jiaze-chen-00ab2681), [Hao Zhou](https://zhouh.github.io/) and [Lei Li](https://lileicc.github.io/).
-Before that, I obtained my Master and Bachelor degrees in Computer Science from [Fudan University](https://www.fudan.edu.cn/). I was a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by [Prof. Xipeng Qiu](https://xpqiu.github.io/en.html) and [Prof. Xuanjing Huang](https://nlp.fudan.edu.cn/28702/list.htm).
+Before that, I obtained my Master and Bachelor degrees in Computer Science from Fudan University. I was a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by [Prof. Xipeng Qiu](https://xpqiu.github.io/en.html) and [Prof. Xuanjing Huang](https://nlp.fudan.edu.cn/28702/list.htm).
 My research focuses on Natural Language Processing, especially text generation. I am also interested in AI methods for drug discovery.
 
 ## Experience
