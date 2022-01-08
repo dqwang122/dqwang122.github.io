@@ -6,17 +6,15 @@ title: Publications
 
 ## Main Publications
 
-### May,2021 - Contrastive Aligned Joint Learning for Multilingual Summarization
-***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li  
-*Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
-<a href="https://aclanthology.org/2021.findings-acl.242/"><i class="fa fa-link"></i></a>
-
-
 ### Aug.,2021 - CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
 ***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li  
 *The 10th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC), 2021*
 <a href="https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31"><i class="fa fa-link"></i></a>
 
+### May,2021 - Contrastive Aligned Joint Learning for Multilingual Summarization
+***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li  
+*Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
+<a href="https://aclanthology.org/2021.findings-acl.242/"><i class="fa fa-link"></i></a>
 
 ### Apr.,2020 - Heterogeneous Graph Neural Networks for Extractive Document Summarization
 ***Danqing Wang***, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
