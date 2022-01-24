@@ -31,7 +31,7 @@ ByteDance AI Lab, †University of California Santa Barbara
 ***
 
 ### Heterogeneous Graph Neural Networks for Extractive Document Summarization
-**Danqing Wang**, Pengfei Liu, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
+**Danqing Wang**\*, Pengfei Liu\*, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
 Fudan University  
 <a href="https://aclanthology.org/2020.acl-main.553" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20200616_ACL2020_HSG.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
