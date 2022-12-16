@@ -6,6 +6,11 @@ title: Publications
 
 ## Main Publications
 
+### Oct.,2022 - Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model
+***Danqing Wang***, Zeyu Wen, Fei Ye, Hao Zhou, Lei Li  
+*arXiv preprint*
+<a href=""><i class="fa fa-link"></i></a>
+
 ### Aug.,2021 - CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
 ***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li  
 *The 10th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC), 2021*
@@ -15,6 +20,11 @@ title: Publications
 ***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li  
 *Findings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL) , 2021*
 <a href="https://aclanthology.org/2021.findings-acl.242/"><i class="fa fa-link"></i></a>
+
+### Oct.,2020 - Enhancing Scientific Papers Summarization with Citation Graph
+Chenxin An, Ming Zhong, Yiran Chen, ***Danqing Wang***, Xipeng Qiu, Xuanjing Huang  
+*Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2021*
+<a href="https://ojs.aaai.org/index.php/AAAI/article/view/17482"><i class="fa fa-link"></i></a>
 
 ### Apr.,2020 - Heterogeneous Graph Neural Networks for Extractive Document Summarization
 ***Danqing Wang***\*, Pengfei Liu\*, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
@@ -31,12 +41,12 @@ Ming Zhong\*, ***Danqing Wang***\*, Pengfei Liu\*, Xipeng Qiu, Xuanjing Huang
 *Workshop on New Frontiers in Summarization of EMNLP, 2019*
 <a href="https://arxiv.org/abs/1909.13705"><i class="fa fa-link"></i></a>
 
-### May.,2019 - Searching for Effective Neural Extractive Summarization: What Works and What's Next
+### May,2019 - Searching for Effective Neural Extractive Summarization: What Works and What's Next
 Ming Zhong\*, Pengfei Liu\*, ***Danqing Wang***, Xipeng Qiu, Xuanjing Huang  
 *The 57th Annual Meeting of the Association for Computational Linguistics (ACL), 2019*
 <a href="https://arxiv.org/abs/1907.03491"><i class="fa fa-link"></i></a>
 
-### May.,2019 - Exploring Domain Shift in Extractive Text Summarization
+### May,2019 - Exploring Domain Shift in Extractive Text Summarization
 ***Danqing Wang***\*, Pengfei Liu\*, Ming Zhong, Jie Fu, Xipeng Qiu, Xuanjing Huang  
 *arXiv preprint*
 <a href="https://arxiv.org/abs/1908.11664"><i class="fa fa-link"></i></a>
