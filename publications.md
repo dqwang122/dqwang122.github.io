@@ -9,7 +9,7 @@ title: Publications
 ### Oct.,2022 - Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model
 ***Danqing Wang***, Zeyu Wen, Fei Ye, Hao Zhou, Lei Li  
 *arXiv preprint*
-<a href=""><i class="fa fa-link"></i></a>
+<a href="https://arxiv.org/abs/2212.09450"><i class="fa fa-link"></i></a>
 
 ### Aug.,2021 - CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
 ***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li  

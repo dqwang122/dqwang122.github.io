@@ -9,7 +9,7 @@ title: Projects
 ### Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model
 ***Danqing Wang***, Zeyu Wen†, Fei Ye†, Hao Zhou*, Lei Li  
 University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University   
-<a href="" title="Paper"><i class="fa fa-file-alt"></i></a>
+<a href="https://arxiv.org/abs/2212.09450" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20221128_LSSAMP.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
 <a href="https://github.com/dqwang122/LSSAMP" title="Code"><i class="fab fa-github"></i></a>
 
