@@ -6,7 +6,16 @@ title: Projects
 
 ## Projects
 
-### Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model
+### On Pre-training Language Model for Antibody (EATLM & ATUE)
+***Danqing Wang***, Fei Ye†, Hao Zhou*   
+University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University  
+<a href="https://openreview.net/pdf?id=zaq4LV55xHl" title="Paper"><i class="fa fa-file-alt"></i></a>
+<a href="https://github.com/dqwang122/EATLM" title="Code"><i class="fab fa-github"></i></a>
+<a href="https://zenodo.org/record/7340488#.Y875U-zMK3J" title="Resource"><i class="fab fa-google-drive"></i></a>
+
+***
+
+### Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model (LSSAMP)
 ***Danqing Wang***, Zeyu Wen†, Fei Ye†, Hao Zhou*, Lei Li  
 University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University   
 <a href="https://arxiv.org/abs/2212.09450" title="Paper"><i class="fa fa-file-alt"></i></a>
@@ -15,7 +24,7 @@ University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua Universit
 
 ***
 
-### Contrastive Aligned Joint Learning for Multilingual Summarization
+### Contrastive Aligned Joint Learning for Multilingual Summarization (CALMS)
 **Danqing Wang**, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
 ByteDance AI Lab, †Fudan University  
 <a href="https://aclanthology.org/2021.findings-acl.242/" title="Paper"><i class="fa fa-file-alt"></i></a>
@@ -38,7 +47,7 @@ ByteDance AI Lab, †University of California Santa Barbara
 
 ***
 
-### Heterogeneous Graph Neural Networks for Extractive Document Summarization
+### Heterogeneous Graph Neural Networks for Extractive Document Summarization (HeterSumGraph)
 **Danqing Wang**\*, Pengfei Liu\*, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
 Fudan University  
 <a href="https://aclanthology.org/2020.acl-main.553" title="Paper"><i class="fa fa-file-alt"></i></a>
