@@ -9,7 +9,7 @@ title: Publications
 ### Jan.,2023 - On Pre-training Language Model for Antibody
 ***Danqing Wang***, Fei Ye, Hao Zhou   
 *Eleventh International Conference on Learning Representations (ICLR), 2023*
-<a href="https://openreview.net/pdf?id=zaq4LV55xHl"><i class="fa fa-link"></i></a>
+<a href="https://arxiv.org/abs/2301.12112"><i class="fa fa-link"></i></a>
 
 
 ### Oct.,2022 - Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model
