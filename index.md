@@ -14,7 +14,7 @@ My research focuses on Natural Language Processing, especially text generation. 
 
 ## Experience
 
-* 2022.9-Current: Computer Science, UCSB
+* 2022.9-Current: PhD in Computer Science, UCSB
 * 2020.4-2022.8: Algorithm Researcher, ByteDance AI Lab
 * 2018.9-2021.1: Master in Computer Science, Fudan University
 * 2014.9-2018.6: Bachelor in Computer Science and Technology, Fudan University
@@ -23,6 +23,7 @@ My research focuses on Natural Language Processing, especially text generation. 
 <!-- ## PC Member   -->
 <!-- Program Committee Member -->
 ### Reviewer
+* ICML (2023)
 * AAAI (2020,2021,2022,2023)
 * NLPCC (2022)
 * ACL (2020,2021)

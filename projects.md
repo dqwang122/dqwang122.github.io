@@ -7,7 +7,7 @@ title: Projects
 ## Projects
 
 ### On Pre-training Language Model for Antibody (EATLM & ATUE)
-***Danqing Wang***, Fei Ye†, Hao Zhou*   
+***Danqing Wang***†‡, Fei Ye†, Hao Zhou*   
 University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University  
 <a href="https://arxiv.org/abs/2301.12112" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="https://github.com/dqwang122/EATLM" title="Code"><i class="fab fa-github"></i></a>
@@ -16,8 +16,8 @@ University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua Universit
 ***
 
 ### Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model (LSSAMP)
-***Danqing Wang***, Zeyu Wen†, Fei Ye†, Hao Zhou*, Lei Li  
-University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University   
+***Danqing Wang***†‡, Zeyu Wen†, Fei Ye†, Hao Zhou*, Lei Li‡  
+‡University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University   
 <a href="https://arxiv.org/abs/2212.09450" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20221128_LSSAMP.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
 <a href="https://github.com/dqwang122/LSSAMP" title="Code"><i class="fab fa-github"></i></a>
