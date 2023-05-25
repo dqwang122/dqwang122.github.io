@@ -29,3 +29,7 @@ My research focuses on Natural Language Processing, especially text generation. 
 * ACL (2020,2021)
 * EMNLP (2020,2021)
 * NAACL (2021)
+
+### Teaching Assistant
+* CS190I Deep Learning [Winter 2023](https://sites.cs.ucsb.edu/~lilei/course/dl23w/)
+* CS165B Machine Learning [Spring 2023](https://sites.cs.ucsb.edu/~xyan/classes/CS165B-2023spring/)
