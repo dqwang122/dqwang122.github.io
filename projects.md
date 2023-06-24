@@ -17,8 +17,8 @@ University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua Universit
 
 ***
 
-### Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model (LSSAMP)
-***Danqing Wang***†‡, Zeyu Wen†, Fei Ye†, Hao Zhou*, Lei Li‡  
+### Accelerating Antimicrobial Peptide Discovery with Latent Structure (LSSAMP)
+***Danqing Wang***†‡, Zeyu Wen†, Fei Ye†, Lei Li‡, Hao Zhou*,  
 ‡University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University   
 <a href="https://arxiv.org/abs/2212.09450" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20221128_LSSAMP.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>

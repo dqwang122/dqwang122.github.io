@@ -12,8 +12,8 @@ title: Publications
 <a href="https://arxiv.org/abs/2301.12112"><i class="fa fa-link"></i></a>
 
 
-### Accelerating Antimicrobial Peptide Discovery with Latent Sequence-Structure Model
-***Danqing Wang***, Zeyu Wen, Fei Ye, Hao Zhou, Lei Li  
+### Accelerating Antimicrobial Peptide Discovery with Latent Structure
+***Danqing Wang***, Zeyu Wen, Fei Ye, Lei Li, Hao Zhou
 *29th ACM SIGKDD Conference On Knowledge Discovery and Data Mining (KDD), 2023*
 <a href="https://arxiv.org/abs/2212.09450"><i class="fa fa-link"></i></a>
 
