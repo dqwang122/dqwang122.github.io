@@ -7,12 +7,12 @@
 - type: categories
   title: Project
   url: /projects/
-- type: dates
-  title: Blog
-  url: /blogs/
+# - type: dates
+#   title: Blog
+#   url: /blogs/
 #- type: categories
 #  title: Categories
 #  url: /categories/
-- type: tags
-  title: Tag
-  url: /tags/
+# - type: tags
+#   title: Tag
+#   url: /tags/

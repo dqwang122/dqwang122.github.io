@@ -4,9 +4,9 @@ permalink: /projects/
 title: Projects
 ---
 
-## Projects
+## Open Source Repositories
 
-### On Pre-training Language Model for Antibody (EATLM & ATUE)
+### [EATLM & ATUE] On Pre-training Language Model for Antibody   
 ***Danqing Wang***†‡, Fei Ye†, Hao Zhou*   
 University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University  
 <a href="https://arxiv.org/abs/2301.12112" title="Paper"><i class="fa fa-file-alt"></i></a>
@@ -17,17 +17,17 @@ University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua Universit
 
 ***
 
-### Accelerating Antimicrobial Peptide Discovery with Latent Structure (LSSAMP)
+### [LSSAMP] Accelerating Antimicrobial Peptide Discovery with Latent Structure   
 ***Danqing Wang***†‡, Zeyu Wen†, Fei Ye†, Lei Li‡, Hao Zhou*,  
 ‡University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University   
-<a href="https://arxiv.org/abs/2212.09450" title="Paper"><i class="fa fa-file-alt"></i></a>
-<a href="/assets/PPT/20221128_LSSAMP.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
+<a href="https://dl.acm.org/doi/pdf/10.1145/3580305.3599249" title="Paper"><i class="fa fa-file-alt"></i></a>
+<a href="/assets/PPT/20230807_KDD2023_LSSAMP.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
 <a href="https://github.com/dqwang122/LSSAMP" title="Code"><i class="fab fa-github"></i></a>
 
 ***
 
-### Contrastive Aligned Joint Learning for Multilingual Summarization (CALMS)
-**Danqing Wang**, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
+### [CALMS] Contrastive Aligned Joint Learning for Multilingual Summarization
+***Danqing Wang***, Jiaze Chen, Hao Zhou, Xipeng Qiu†, Lei Li   
 ByteDance AI Lab, †Fudan University  
 <a href="https://aclanthology.org/2021.findings-acl.242/" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20210624_ACL2021_CALMS.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
@@ -38,8 +38,8 @@ ByteDance AI Lab, †Fudan University
 
 ***
 
-### CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
-**Danqing Wang**, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
+### [CNewSum] A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
+***Danqing Wang***, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li†  
 ByteDance AI Lab, †University of California Santa Barbara  
 <a href="https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20211016_NLPCC2021_CNewSum.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
@@ -49,8 +49,8 @@ ByteDance AI Lab, †University of California Santa Barbara
 
 ***
 
-### Heterogeneous Graph Neural Networks for Extractive Document Summarization (HeterSumGraph)
-**Danqing Wang**\*, Pengfei Liu\*, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
+### [HeterSumGraph] Heterogeneous Graph Neural Networks for Extractive Document Summarization
+***Danqing Wang***\*, Pengfei Liu\*, Yining Zheng, Xipeng Qiu, Xuanjing Huang  
 Fudan University  
 <a href="https://aclanthology.org/2020.acl-main.553" title="Paper"><i class="fa fa-file-alt"></i></a>
 <a href="/assets/PPT/20200616_ACL2020_HSG.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a>
@@ -60,7 +60,7 @@ Fudan University
 
 ***
 
-### Exploring Domain Shift in Extractive Text Summarization
+### [MULTI-SUM] Exploring Domain Shift in Extractive Text Summarization
 ***Danqing Wang***\*, Pengfei Liu\*, Ming Zhong, Jie Fu, Xipeng Qiu, Xuanjing Huang  
 Fudan University    
 <a href="https://arxiv.org/abs/1908.11664" title="Paper"><i class="fa fa-file-alt"></i></a>
