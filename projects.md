@@ -6,6 +6,17 @@ title: Projects
 
 ## Open Source Repositories
 
+### [SALAM] Learning from Mistakes via Interactive Study Assistant for Large Language Models   
+***Danqing Wang***, Lei Li*   
+University of California Santa Barbara, *Carnegie Mellon University   
+<a href="https://arxiv.org/pdf/2305.13829" title="Paper"><i class="fa fa-file-alt"></i></a>
+<!-- <a href="/assets/PPT/20230407_ICLR2023_EATLM.pdf" title="Slide"><i class="fas fa-file-powerpoint"></i></a> -->
+<a href="https://github.com/dqwang122/SALAM" title="Code"><i class="fab fa-github"></i></a>
+<!-- <a href="https://zenodo.org/record/7340488#.Y875U-zMK3J" title="Resource"><i class="fab fa-google-drive"></i></a> -->
+<!-- <a href="https://iclr.cc/virtual/2023/poster/10766" title="Video"><i class="fab fa-youtube"></i></a> -->
+
+***
+
 ### [EATLM & ATUE] On Pre-training Language Model for Antibody   
 ***Danqing Wang***†‡, Fei Ye†, Hao Zhou*   
 University of California Santa Barbara, †ByteDance AI Lab, *Tsinghua University  

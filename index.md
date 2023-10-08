@@ -34,6 +34,9 @@ My research focuses on **Natural Language Processing**, especially text generati
 * EMNLP (2020,2021)
 * NAACL (2021)
 
+## Organizer
+* Socal NLP Symposium [2022](https://socalnlp.github.io/symp22/index.html)
+
 ### Teaching Assistant
 * CS190I Deep Learning [Winter 2023](https://sites.cs.ucsb.edu/~lilei/course/dl23w/)
 * CS165B Machine Learning [Spring 2023](https://sites.cs.ucsb.edu/~xyan/classes/CS165B-2023spring/)

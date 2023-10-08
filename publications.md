@@ -12,6 +12,39 @@ Full publications can be found in [Google Scholar](https://scholar.google.com/ci
 <tr>
   <td width="65%">
     <h3>
+      Learning Personalized Story Evaluation
+      <a href="https://arxiv.org/abs/2310.03304"><i class="fa fa-link"></i></a>
+    </h3>
+    <em><strong>Danqing Wang</strong></em>, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian <br/>
+    <em>arXiv preprint, 2023</em>
+  </td>
+  <td width="35%" align="right" valign="middle"><img src="/assets/images/PerSE.jpg" alt="PerSE"></td>
+</tr>
+<tr>
+  <td width="65%">
+    <h3>
+      Learning from Mistakes via Interactive Study Assistant for Large Language Models
+      <a href="https://arxiv.org/pdf/2305.13829"><i class="fa fa-link"></i></a>
+    </h3>
+    <em><strong>Danqing Wang</strong></em>, Lei Li <br/>
+    <em>Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2023</em>
+  </td>
+  <td width="35%" align="right" valign="middle"><img src="/assets/images/SALAM.jpg" alt="SALAM"></td>
+</tr>
+<tr>
+  <td width="65%">
+    <h3>
+      Instructscore: Towards Explainable Text Generation Evaluation with Automatic Feedback
+      <a href="https://arxiv.org/pdf/2305.14282"><i class="fa fa-link"></i></a>
+    </h3>
+    Wenda Xu, <em><strong>Danqing Wang</strong></em>, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li <br/>
+    <em>Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2023</em>
+  </td>
+  <td width="35%" align="right" valign="middle"><img src="/assets/images/Instructscore.jpg" alt="Instructscore"></td>
+</tr>
+<tr>
+  <td width="65%">
+    <h3>
       ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers
       <a href="https://arxiv.org/pdf/2305.14591"><i class="fa fa-link"></i></a>
     </h3>
