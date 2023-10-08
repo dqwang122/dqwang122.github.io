@@ -40,7 +40,7 @@ Full publications can be found in [Google Scholar](https://scholar.google.com/ci
     Wenda Xu, <em><strong>Danqing Wang</strong></em>, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li <br/>
     <em>Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2023</em>
   </td>
-  <td width="35%" align="right" valign="middle"><img src="/assets/images/Instructscore.jpg" alt="Instructscore"></td>
+  <td width="35%" align="right" valign="middle"><img src="/assets/images/InstructScore.jpg" alt="Instructscore"></td>
 </tr>
 <tr>
   <td width="65%">
