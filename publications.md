@@ -24,7 +24,7 @@ Full publications can be found in [Google Scholar](https://scholar.google.com/ci
 <tr>
   <td width="65%">
     <h3>
-      Learning from Mistakes via Interactive Study Assistant for Large Language Models
+      Learning from Mistakes via Cooperative Study Assistant for Large Language Models 
       <a href="/projects/SALAM/"><i class="fa fa-home"></i></a>
     </h3>
     <em><strong>Danqing Wang</strong></em>, Lei Li <br/>
@@ -36,7 +36,7 @@ Full publications can be found in [Google Scholar](https://scholar.google.com/ci
   <td width="65%">
     <h3>
       Instructscore: Towards Explainable Text Generation Evaluation with Automatic Feedback
-      <a href="https://arxiv.org/pdf/2305.14282"><i class="fa fa-link fa-sm"></i></a>
+      <a href="https://llilab.github.io/projects/instructscore/"><i class="fa fa-home"></i></a>
     </h3>
     Wenda Xu, <em><strong>Danqing Wang</strong></em>, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li <br/>
     <em>Empirical Methods in Natural Language Processing (<strong>EMNLP</strong>), 2023</em>

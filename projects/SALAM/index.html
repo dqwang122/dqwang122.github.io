@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Learning from Mistakes via Interactive Study Assistant for Large Language Models</title>
+  <title>Learning from Mistakes via Cooperative Study Assistant for Large Language Models </title>
 
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
 
@@ -74,7 +74,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Learning from Mistakes via Interactive Study Assistant for Large Language Models</h1>
+          <h1 class="title is-1 publication-title">Learning from Mistakes via Cooperative Study Assistant for Large Language Models</h1>
           <div class="is-size-5 publication-authors">
             <!-- Paper authors -->
             <span class="author-block">
@@ -174,7 +174,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Large language models (LLMs) have shown promising capabilities to refine their generation based on feedback. However, LLM refinement based on feedback is not always robust and may produce incorrect answers. In this paper, we propose a <strong>Study Assistant for Large LAnguage Model (SALAM)</strong> to learn and correct from their mistakes. Our method introduces a study assistant agent to analyze mistakes and generate improvement guidelines from the main LLM. During inference, it identifies common misunderstandings based on the mistake collections and provides guidelines for LLMs to help them avoid similar mistakes. We further finetune the study assistant using imitation learning with successful feedback interaction. Our experiments on two challenging frameworks (BBH and BBQ) demonstrate that SALAM outperforms baselines by a margin of up to 10.7 in accuracy.
+            Large language models (LLMs) have demonstrated their potential to refine their generation based on their own feedback. However, the feedback from LLM itself is often inaccurate, thereby limiting its benefits. In this paper, we propose Study Assistant for Large LAnguage Model (SALAM), a novel framework with an auxiliary agent to assist the main LLM in learning from mistakes through interactive cooperation. In the gathering phase, the student assistant agent probes the main LLM, analyzes its errors, and collects the interaction in a mistake memory. During the examination phase, the study assistant provides guidelines by retrieving relevant cases to help the main LLM anticipate and avoid similar errors. We first investigate the effectiveness of a general study assistant and then customize it to provide LLMspecific guidance through imitation learning from successful guidance experiences. Our experiments on three LLMs using two challenging frameworks demonstrate that SALAM can significantly boost LLMs by an accuracy margin of up to 6.6 on BBH and 12.6 on BBQ.
           </p>
         </div>
       </div>
