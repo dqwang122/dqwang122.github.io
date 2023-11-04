@@ -6,7 +6,7 @@ title: Projects
 
 ## Open Source Repositories
 
-### [SALAM] Learning from Mistakes via Interactive Study Assistant for Large Language Models   
+### [SALAM] Learning from Mistakes via Cooperative Study Assistant for Large Language Models   
 ***Danqing Wang***, Lei Li*   
 University of California Santa Barbara, *Carnegie Mellon University   
 <a href="/projects/SALAM/" title="Website"><i class="fas fa-home"></i></a>
