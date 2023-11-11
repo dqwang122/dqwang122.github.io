@@ -127,15 +127,15 @@
                 </a>
               </span>
 
-              <!-- ArXiv abstract Link -->
-              <!-- <span class="link-block">
-                <a href="/assets/PPT/20210624_ACL2021_CALMS.pdf" target="_blank"
+              <!-- Slides -->
+              <span class="link-block">
+                <a href="/assets/PPT/20231027_EMNLP2023_SALAM.pdf" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fas fa-file-powerpoint"></i>
                 </span>
                 <span>Slides</span>
-                </a> -->
+                </a>
               </span>
             </div>
           </div>
@@ -156,9 +156,9 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <strong>Cooperative Interaction between two agents</strong>: <em>main LLM</em> and <em>study assistant</em>.
+        <strong>Cooperative Interaction between two agents</strong>: <em style="color:#3393FF;font-family: 'PT Sans'">main LLM</em> and <em style="color:#3393FF;font-family: 'PT Sans'">study assistant</em>.
         The study assistant helps LLM revise its response by analyizing its previous mistakes and providing guidelines based on the ground truth.
-        It also maintains a mistake collection for all mistakes the LLM made on the training set.
+        It also maintains a <em style="color:#FF8333; font-family: 'PT Sans'">mistake memory</em> for all mistakes the LLM made on the training set.
         During inference, the study assistant directly provides guidance without the ground truth and retrieves similar mistakes from the collection.
       </h2>
     </div>
@@ -174,7 +174,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Large language models (LLMs) have demonstrated their potential to refine their generation based on their own feedback. However, the feedback from LLM itself is often inaccurate, thereby limiting its benefits. In this paper, we propose Study Assistant for Large LAnguage Model (SALAM), a novel framework with an auxiliary agent to assist the main LLM in learning from mistakes through interactive cooperation. In the gathering phase, the student assistant agent probes the main LLM, analyzes its errors, and collects the interaction in a mistake memory. During the examination phase, the study assistant provides guidelines by retrieving relevant cases to help the main LLM anticipate and avoid similar errors. We first investigate the effectiveness of a general study assistant and then customize it to provide LLMspecific guidance through imitation learning from successful guidance experiences. Our experiments on three LLMs using two challenging frameworks demonstrate that SALAM can significantly boost LLMs by an accuracy margin of up to 6.6 on BBH and 12.6 on BBQ.
+            Large language models (LLMs) have demonstrated their potential to refine their generation based on their own feedback. However, the feedback from LLM itself is often inaccurate, thereby limiting its benefits. In this paper, we propose <strong>Study Assistant for Large LAnguage Model (SALAM)</strong>, a novel framework with an auxiliary agent to assist the main LLM in learning from mistakes through interactive cooperation. In the gathering phase, the student assistant agent probes the main LLM, analyzes its errors, and collects the interaction in a mistake memory. During the examination phase, the study assistant provides guidelines by retrieving relevant cases to help the main LLM anticipate and avoid similar errors. We first investigate the effectiveness of a general study assistant and then customize it to provide LLMspecific guidance through imitation learning from successful guidance experiences. Our experiments on three LLMs using two challenging frameworks demonstrate that SALAM can significantly boost LLMs by an accuracy margin of up to 6.6 on BBH and 12.6 on BBQ.
           </p>
         </div>
       </div>
@@ -183,14 +183,105 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- Paper content -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-half">
+        <h4 class="title is-4">Cooperation Makes LLM Better</h4>
+        <div>
+            <img src="static/images/overview.jpg" width="100%" height="100%" alt="SALAM">
+        </div>
+        <br>
+        <div class="content has-text-justified">
+          <p><strong>😨 LLM may self-reflect, but is the reflection always reliable and reusable?</strong></p>
+          <ul>
+          <li>Inopportune time to stop or continue the refinement loop</li>
+          <li>Too vague feedback to refine response</li>
+          <li>Repeated mistakes without knowing previous reflection</li>
+          </ul>
+          <p><strong>🧐 We need an expert to help LLMs reflect</strong></p>
+          <ul>
+          <li>analyze common misunderstanding and provide global guidelines</li>
+          <li>collect the experience for future use</li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="column is-half">
+          <h4 class="title is-4">Mistake Gathering & Examination</h4>
+          <div>
+              <img src="static/images/memory.jpg" width="90%" height="90%" alt="Mistake Memory">
+          </div>
+          <br>
+          <div class="content has-text-justified">
+            <p><strong>📚 Mistake Memory uiltizes previous mistakes</strong></p>
+            <ul>
+            <li>Collect mistakes from the training data with ground truth</li>
+            <li>Let main LLM interact with the study assistant until it gets the correct answer</li>
+            <li>Store these experience into mistake memory</li>
+            </ul>
+            <p><strong>📝 No ground truth is provided during Examination</strong></p>
+            <ul>
+            <li>Study assistant retrieves similar mistakes from the memory and provides guideline without the ground truth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <div class="content has-text-justified">
+        <h3 class="title is-4">Train a model-agnostic Study Assistant</h4>
+          <h5 class="title is-5", style="color:#3393FF;font-family: 'PT Sans'"><em>Focus only on the case, not the LLM!</em></h5>
+          <ol>
+          <li>Dataset: Collect mistakes from different LLMs and get feedback data from GPT-4</li>
+            <ul>
+              <li> Analysis (why is wrong) </li>
+              <li> Guideline (how to avoid) </li>
+            </ul>
+          <li>Training: finetune a LLaMA-based study assistant on the feedback dataset.</li>
+          </ol>
+        </div>
+
+        <div class="content has-text-justified">
+        <h3 class="title is-4">Tailor a model-specific Study Assistant for each LLM</h4>
+          <h5 class="title is-5", style="color:#3393FF;font-family: 'PT Sans'"><em>Each LLM has his own opinion!</em></h5>
+          <ol>
+          <li>Formulation: Markov decision process</li>
+          <ul>
+            <li><strong>State S</strong>: (query, response, context)</li>
+            <li><strong>Action A</strong>: feedback from the study assistant</li>
+            <li><strong>Reward R</strong>: LLM performance
+              <ul>
+                <li>1 if the LLM’s response is correct</li>
+                <li>0 otherwise</li>
+              </ul>
+            </li>
+            <li><p><strong>Policy 𝜋(𝑎|𝑠)</strong>: a language model to provide feedback</p>
+            </li>
+          </ul>
+          <li>Offline Sampling: Collect a replay dataset and only keep successful trajectories.</li>
+          <li>Training: finetune a LLaMA-based study assistant on the filtered replay dataset.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper content -->
+
 
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
+       <!-- <div class="item">
         <div style="text-align: center;">
           <img src="static/images/overview.jpg" width="80%" height="80%" alt="overview"/>
         </div>
@@ -198,15 +289,28 @@
           SALAM. There are two agents in SALAM framework: an LLM and a study assistant. The blue contents are generated by LLM and the green ones are from the study assistant. The LLM has a first try on a set of queries and passes its response to the study assistant.
           The assistant grades the response based on the ground truth and collect mistakes. It then returns feedback and asks LLM to refine its answer. For inference, the study assistant directly retrieves relevant mistakes for the new query and generates the analysis and guidelines as additional instruction for LLM.
         </h2>
+      </div> -->
+      <div class="item">
+        <!-- Your image here -->
+        <div style="text-align: center;">
+          <img src="static/images/results.jpg" alt="main results"/>
+        </div>
+        <h2 class="subtitle has-text-centered">We tested SALAM on 27 tasks from BBH & BBQ for Flan-T5 11B, LLaMA-1 7B, and GPT-NeoX 20B. It boosted their performance without fine-tuning on these tasks.</h2>
       </div>
       <div class="item">
         <!-- Your image here -->
         <div style="text-align: center;">
-          <img src="static/images/results.jpg" width="50%" height="50%" alt="results"/>
+          <img src="static/images/gpt4.jpg" alt="gpt4 results"/>
         </div>
-        <h2 class="subtitle has-text-centered">We tested SALAM on 27 tasks from BBH & BBQ for Flan-T5 11B, LLaMA-1 7B, and GPT-NeoX 20B. It boosted their performance without fine-tuning on these tasks.</h2>
+        <h2 class="subtitle has-text-centered">We take GPT-4 as our main LLM and study assistant respectively. GPT-4 can benefits from our small finetuned LLaMA-based study assistant. As the study assistant Although it is more powerful than the small study assistant, our study assistant can easily generate more feedback with no cost and outperform it.</h2>
       </div>
-
+      <div class="item">
+        <!-- Your image here -->
+        <div style="text-align: center;">
+          <img src="static/images/retrieval.jpg" alt="retrieval"/>
+        </div>
+        <h2 class="subtitle has-text-centered">The investigation of retrieval. We conduct experiments on BBQ with Flan-T5. SALAM benefits from the precise retrieval.</h2>
+      </div>
   </div>
 </div>
 </div>
