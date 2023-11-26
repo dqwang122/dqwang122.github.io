@@ -26,6 +26,11 @@ exclude:
   - README.md
   - scripts/
   - not-pure-poole.gemspec
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Optimize Jekyl SEO Tag
 twitter:
