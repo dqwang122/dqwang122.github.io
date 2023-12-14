@@ -6,15 +6,15 @@ title: Publications
 
 ## Selected Publications
 
-Full publications can be found in [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ).
+Full publication list can be found in [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ).
 
 <table>
 <tr>
   <td width="65%">
     <h3>
       Learning Personalized Story Evaluation
-      <a href="https://arxiv.org/abs/2310.03304"><i class="fa fa-link fa-sm"></i></a>
-      <!-- <a href="https://arxiv.org/abs/2310.03304"><i class="fas fa-quote-right fa-sm"></i></a> -->
+      <a href="https://storyrl.github.io"><i class="fa fa-home"></i></a>
+      <!-- <a href="https://arxiv.org/abs/2310.03304"><i class="fa fa-link fa-sm"></i></a> -->
     </h3>
     <em><strong>Danqing Wang</strong></em>, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian <br/>
     <em>arXiv preprint, 2023</em>
@@ -47,7 +47,8 @@ Full publications can be found in [Google Scholar](https://scholar.google.com/ci
   <td width="65%">
     <h3>
       ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers
-      <a href="https://arxiv.org/pdf/2305.14591"><i class="fa fa-link fa-sm"></i></a>
+      <!-- <a href="https://arxiv.org/pdf/2305.14591"><i class="fa fa-link fa-sm"></i></a> -->
+      <a href="https://llilab.github.io/projects/algo/"><i class="fa fa-home"></i></a>
     </h3>
     Kexun Zhang, <em><strong>Danqing Wang</strong></em>, Jingtao Xia, William Yang Wang, Lei Li <br/>
     <em>Thirty-seventh Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2023</em>

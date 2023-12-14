@@ -1,7 +1,7 @@
 # Setup
 title: Danqing Wang
 description: 王丹青
-url: https://vszhub.github.io
+url: https://dqwang122.github.io
 avatar: /assets/images/me.jpg
 paginate: 5
 permalink: pretty
@@ -34,14 +34,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: dqwang122
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Danqing Wang
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://twitter.com/dqwang122
+    - https://github.com/dqwang122 
 google_site_verification: xxxxx
 lang: en
 
