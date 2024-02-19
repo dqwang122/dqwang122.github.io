@@ -6,14 +6,14 @@ title: Projects
 
 ## Open Source Repositories
 
-### [PerSE] Learning Personalized Story Evaluation 
+### [PerSE] Learning Personalized Alignment for Evaluating Open-ended Text Generation 
 ***Danqing Wang***, Kevin Yang†‡, Hanlin Zhu†‡, Xiaomeng Yang†, Andrew Cohen†, Lei Li*, Yuandong Tian†   
 UC Santa Barbara, †Meta AI, ‡UC Berkeley, *Carnegie Mellon University    
 <a href="https://storyrl.github.io" title="Website"><i class="fas fa-home"></i></a>
 <a href="https://arxiv.org/pdf/2310.03304.pdf" title="Paper"><i class="fa fa-file-alt"></i></a>
 <!-- <a href="/assets/PPT/20230407_ICLR2023_EATLM.pdf" title="Slides"><i class="fas fa-file-powerpoint"></i></a> -->
 <a href="https://github.com/facebookresearch/perse" title="Code"><i class="fab fa-github"></i></a>
-<!-- <a href="https://zenodo.org/record/7340488#.Y875U-zMK3J" title="Resource"><i class="fab fa-google-drive"></i></a> -->
+<a href="https://dl.fbaipublicfiles.com/perse/PerDOC.tar.gz" title="Resource"><i class="fab fa-google-drive"></i></a>
 <!-- <a href="https://iclr.cc/virtual/2023/poster/10766" title="Video"><i class="fab fa-youtube"></i></a> -->
 
 ***

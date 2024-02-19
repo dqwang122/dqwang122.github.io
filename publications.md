@@ -12,8 +12,8 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
 <tr>
   <td width="65%">
     <h3>
-      Learning Personalized Story Evaluation
-      <a href="https://storyrl.github.io"><i class="fa fa-home"></i></a>
+      Learning Personalized Alignment for Evaluating Open-ended Text Generation
+      <a href="https://arxiv.org/pdf/2310.03304.pdf"><i class="fa fa-home"></i></a>
       <!-- <a href="https://arxiv.org/abs/2310.03304"><i class="fa fa-link fa-sm"></i></a> -->
     </h3>
     <em><strong>Danqing Wang</strong></em>, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian <br/>
