@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters">
+  <meta property="og:title" content="Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters"/>
+  <meta property="og:description" content="Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters"/>
+  <meta property="og:url" content="https://dqwang122.github.io/projects/TreeDebater/"/>
+  <meta property="og:image" content="static/images/overview.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters">
+  <meta name="twitter:description" content="Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters">
+  <meta name="twitter:image" content="static/images/overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="LLM, TreeDebater, Debate, Strategic Planning, Rationalizing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters</title>
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="/assets/dl.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.1.1/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://dqwang122.github.io/" target="_blank">Danqing Wang*</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=0XUri1UAAAAJ&hl=en" target="_blank">Zhuorui Ye*</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://colinzhaoust.github.io/" target="_blank">Xinran Zhao*</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://feifang.info/" target="_blank">Fei Fang</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://lileicc.github.io/" target="_blank">Lei Li</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">arXiv preprint, 2025</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2505.14886" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="#" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+                </a>
+              </span>
+
+              <!-- <span class="link-block">
+                <a href="#" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-powerpoint"></i>
+                </span>
+                <span>Slides</span>
+                </a>
+              </span> -->
+
+              <span class="link-block">
+                <a href="https://dqwang122.github.io/debate-evaluation/" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </span>
+                <span>Evaluation Platform</span>
+                </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Winning competitive debates requires sophisticated reasoning and argument skills. There are unique challenges in the competitive debate: (1) The time constraints force debaters to make strategic choices about which points to pursue rather than covering all possible arguments; (2) The persuasiveness of the debate relies on the back-and-forth interaction between arguments, which a single final game status cannot evaluate. To address these challenges, we propose TreeDebater, a novel debate framework that excels in competitive debate. We introduce two tree structures: the Rehearsal Tree and Debate Flow Tree. The Rehearsal Tree anticipates the attack and defenses to evaluate the strength of the claim, while the Debate Flow Tree tracks the debate status to identify the active actions. TreeDebater allocates its time budget among candidate actions and uses the speech time controller and feedback from the simulated audience to revise its statement. The human evaluation on both the stage-level and the debate-level comparison shows that our TreeDebater outperforms the state-of-the-art multi-agent debate system. Further investigation shows that TreeDebater shows better strategies in limiting time to important debate actions, aligning with the strategies of human debate experts.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Paper content -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="box" style="height: 100%;">
+          <h4 class="title is-4 has-text-centered" style="margin-bottom: 1.5rem;">Why is competitive debate challenging?</h4>
+          <div class="has-text-centered">
+            <img src="static/images/motivation.jpg" style="max-width: 90%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="motivation">
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="box" style="height: 100%;">
+          <h4 class="title is-4 has-text-centered" style="margin-bottom: 1.5rem;">How TreeDebater solves the challenges?</h4>
+          <div class="has-text-centered">
+            <img src="static/images/solution2.jpg" style="max-width: 90%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);" alt="solution">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper content -->
+
+<!-- Results section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            TreeDebater demonstrates superior performance compared to the Agent4Debate baseline across both Gemini and DeepSeek model settings. Our approach shows significant improvements in win rates and overall persuasiveness.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div class="box">
+          <h4 class="title is-4 has-text-centered">Overall Win Rate Comparison</h4>
+          <canvas id="overallWinRateChart" style="max-height: 300px;"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <div class="performance-card gemini-card" style="padding: 20px; border-radius: 8px; text-align: center; color: white; background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); opacity: 0.9;">
+          <div class="card-title" style="font-size: 20px; font-weight: bold; margin-bottom: 15px;">Gemini Backbone</div>
+          <div style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">Overall Persuasiveness Across All Stages</div>
+          <div class="comparison" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+            <div>
+              <div class="method-name" style="font-size: 14px; opacity: 0.9;">Agent4Debate (Baseline)</div>
+              <div class="score" style="font-size: 24px; font-weight: bold;">3.54</div>
+            </div>
+            <div style="font-size: 30px;">→</div>
+            <div>
+              <div class="method-name" style="font-size: 14px; opacity: 0.9;">TreeDebater (Ours)</div>
+              <div class="score" style="font-size: 24px; font-weight: bold;">3.69</div>
+            </div>
+          </div>
+          <div class="improvement" style="font-size: 14px; background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 12px; margin-top: 10px;"><strong>+4.2% improvement in persuasiveness</strong></div>
+        </div>
+      </div>
+
+      <div class="column is-half">
+        <div class="performance-card deepseek-card" style="padding: 20px; border-radius: 8px; text-align: center; color: white; background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); opacity: 0.9;">
+          <div class="card-title" style="font-size: 20px; font-weight: bold; margin-bottom: 15px;">DeepSeek Backbone</div>
+          <div style="font-size: 14px; opacity: 0.9; margin-bottom: 10px;">Overall Persuasiveness Across All Stages</div>
+          <div class="comparison" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+            <div>
+              <div class="method-name" style="font-size: 14px; opacity: 0.9;">Agent4Debate (Baseline)</div>
+              <div class="score" style="font-size: 24px; font-weight: bold;">3.47</div>
+            </div>
+            <div style="font-size: 30px;">→</div>
+            <div>
+              <div class="method-name" style="font-size: 14px; opacity: 0.9;">TreeDebater (Ours)</div>
+              <div class="score" style="font-size: 24px; font-weight: bold;">4.01</div>
+            </div>
+          </div>
+          <div class="improvement" style="font-size: 14px; background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 12px; margin-top: 10px;"><strong>+15.6% improvement in persuasiveness</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <div class="box">
+            <h4 class="title is-5 has-text-centered">Win Rate by Debate Stage - Gemini</h4>
+            <div style="position: relative; height: 300px; width: 100%;">
+              <canvas id="winRateGeminiChart"></canvas>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column is-half">
+          <div class="box">
+            <h4 class="title is-5 has-text-centered">Win Rate by Debate Stage - DeepSeek</h4>
+            <div style="position: relative; height: 300px; width: 100%;">
+              <canvas id="winRateDeepSeekChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End results section -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/framework.jpg" width="80%" height="80%" alt="framework"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 1: The framework of TreeDebater. The tree structure enables strategic planning and rationalization of debate arguments.
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/trees.jpg" width="70%" height="70%" alt="tree"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 2: Illustration of Rehearsal Tree (a) and Debate Flow Tree (b).
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;" >
+          <img src="static/images/dist.jpg" width="80%" height="80%" alt="dist"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 3: Action types distribution in the rebuttal stage. TreeDebater effectively explores multiple strategic options, similar to human debate experts.
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/feedback.jpg" width="60%" height="60%" alt="feedback"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 4: TreeDebater shows better logic flow, argument points and evidence. This benefits from the flow
+          tracking the debate flow tree and the prepared claims and evidence in rehearsal trees.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/poster.pdf" width="100%" height="550">
+          </iframe>
+
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{wang2025debater,
+    title={Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters},
+    author={Wang, Danqing and Ye, Zhuorui and Zhao, Xinran and Fang, Fei and Li, Lei},
+    journal={arXiv preprint, 2025},
+    year={2025}
+  }</code></pre>
+  </div>
+</section>
+<!--End BibTeX citation -->
+
+
+
+<script>
+  // Color scheme focused on baseline vs ours comparison
+  const colors = {
+    baseline: '#95a5a6',      // Gray for baseline
+    ours: '#66C2A5',          // Green for our method
+    gemini: '#e67e22',        // Orange for Gemini
+    deepSeek: '#8e44ad'       // Purple for DeepSeek
+  };
+
+  // Chart 0: Overall Win Rate Comparison
+  const ctx0 = document.getElementById('overallWinRateChart').getContext('2d');
+  const geminiWinRate = 45;
+  const geminiLossRate = 28;
+  const deepSeekWinRate = 50;
+  const deepSeekLossRate = 20;
+
+  new Chart(ctx0, {
+    type: 'bar',
+    data: {
+      labels: ['Gemini Setting', 'DeepSeek Setting'],
+      datasets: [
+        {
+          label: 'Agent4Debate Wins',
+          data: [geminiLossRate, deepSeekLossRate],
+          backgroundColor: colors.baseline,
+          borderColor: colors.baseline,
+          borderWidth: 2
+        },
+        {
+          label: 'TreeDebater Wins',
+          data: [geminiWinRate, deepSeekWinRate],
+          backgroundColor: colors.ours,
+          borderColor: colors.ours,
+          borderWidth: 2
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            font: {
+              size: 14
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 60,
+          title: {
+            display: true,
+            text: 'Win Rate (%)',
+            font: {
+              size: 16,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            font: {
+              size: 14
+            }
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Model Setting',
+            font: {
+              size: 16,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            font: {
+              size: 14
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Chart 1: Win Rate by Debate Stage - Gemini
+  const ctx1 = document.getElementById('winRateGeminiChart').getContext('2d');
+  // Calculate win rates for Gemini: TreeDebater wins / total comparisons
+  const geminiTreeDebaterWinRates = [
+      5/(5+3+3) * 100, 6/(6+1+4) * 100, 2/(2+6+1) * 100, 2/(2+3+5) * 100, 7/(7+1+3) * 100, 5/(5+2+1) * 100
+  ];
+  const geminiAgent4DebateWinRates = [
+      3/(5+3+3) * 100, 4/(6+1+4) * 100, 1/(2+6+1) * 100, 5/(2+3+5) * 100, 3/(7+1+3) * 100, 1/(5+2+1) * 100
+  ];
+  new Chart(ctx1, {
+    type: 'bar',
+    data: {
+      labels: ['Opening Pro', 'Opening Con', 'Rebuttal Pro', 'Rebuttal Con', 'Closing Pro', 'Closing Con'],
+      datasets: [
+        {
+          label: 'Agent4Debate',
+          data: geminiAgent4DebateWinRates,
+          backgroundColor: colors.baseline,
+          borderColor: colors.baseline,
+          borderWidth: 2
+        },
+        {
+          label: 'TreeDebater',
+          data: geminiTreeDebaterWinRates,
+          backgroundColor: colors.gemini + '90',
+          borderColor: colors.gemini,
+          borderWidth: 2
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            font: {
+              size: 12
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: {
+            display: true,
+            text: 'Win Rate (%)',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            font: {
+              size: 12
+            }
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Debate Stage',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            font: {
+              size: 12
+            }
+          }
+        }
+      }
+    }
+  });
+
+  // Chart 2: Win Rate by Debate Stage - DeepSeek
+  const ctx2 = document.getElementById('winRateDeepSeekChart').getContext('2d');
+  // Calculate win rates for DeepSeek
+  const deepSeekTreeDebaterWinRates = [
+      8/(8+2+1) * 100, 4/(4+4+3) * 100, 8/(8+1+2) * 100, 4/(4+4+3) * 100, 3/(3+5+3) * 100, 6/(6+4+1) * 100
+  ];
+  const deepSeekAgent4DebateWinRates = [
+      1/(8+2+1) * 100, 3/(4+4+3) * 100, 2/(8+1+2) * 100, 3/(4+4+3) * 100, 3/(3+5+3) * 100, 1/(6+4+1) * 100
+  ];
+  new Chart(ctx2, {
+    type: 'bar',
+    data: {
+      labels: ['Opening Pro', 'Opening Con', 'Rebuttal Pro', 'Rebuttal Con', 'Closing Pro', 'Closing Con'],
+      datasets: [
+        {
+          label: 'Agent4Debate',
+          data: deepSeekAgent4DebateWinRates,
+          backgroundColor: colors.baseline,
+          borderColor: colors.baseline,
+          borderWidth: 2
+        },
+        {
+          label: 'TreeDebater',
+          data: deepSeekTreeDebaterWinRates,
+          backgroundColor: colors.deepSeek  + '90',
+          borderColor: colors.deepSeek,
+          borderWidth: 2
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            font: {
+              size: 12
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100,
+          title: {
+            display: true,
+            text: 'Win Rate (%)',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            font: {
+              size: 12
+            }
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Debate Stage',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            font: {
+              size: 12
+            }
+          }
+        }
+      }
+    }
+  });
+</script>
+
+</body>
+</html> 
+
+

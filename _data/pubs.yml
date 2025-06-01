@@ -1,3 +1,19 @@
+- title: Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
+  date: "2025-05-12"
+  category: "under submission"
+  publication: ""
+  tags:
+    - Large Language Model
+    - Multi-agent Reasoning
+  url: https://arxiv.org/abs/2505.14886
+- title: Scaling LLM Inference with Optimized Sample Compute Allocation
+  date: "2024-10-12"
+  category: "NAACL"
+  publication: "NAACL 2025"
+  tags:
+    - Large Language Model
+    - Inference Algorithm
+  url: https://arxiv.org/abs/2505.14886
 - title: "Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models"
   date: "2024-06-01"
   category: "under submission"
@@ -8,8 +24,8 @@
   url: https://arxiv.org/abs/2410.20007
 - title: "TypedThinker: Typed Thinking Improves Large Language Model Reasoning"
   date: "2024-05-15"
-  category: "under submission"
-  publication: ""
+  category: "ICLR"
+  publication: "ICLR 2025"
   tags:
     - Large Language Model
     - Multi-agent Reasoning

@@ -4,11 +4,27 @@ permalink: /publications/
 title: Publications
 ---
 
-
 # Publications
 
 Full publication list can be found in [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ).
 
+
+## 2025
+
+<table>
+  <tr>
+    <td width="70%">
+      <h4>
+        Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
+        <a href="/projects/Debate/"><i class="fa fa-link fa-home"></i></a>
+        <!-- <a href=""><i class="fa-home"></i></a> -->
+      </h4>
+      <em><strong>Danqing Wang*</strong></em>, Zhuorui Ye*, Xinran Zhao*, Fei Fang, Lei Li <br/>
+      <em>arXiv preprint, 2025</em>
+    </td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/TreeDebater.jpg" alt="TreeDebater" onclick="zoomImage(this)" style="cursor: pointer;"></td>
+  </tr>
+</table>
 
 ## 2024
 <table>
@@ -22,19 +38,19 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em><strong>Danqing Wang</strong></em>, Zhuorui Ye, Fei Fang, Lei Li <br/>
       <em>arXiv preprint, 2024</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/CoPlanner.jpg" alt="CoPlanner"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/CoPlanner.jpg" alt="CoPlanner" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
       <h4>
         TypedThinker: Typed Thinking Improves Large Language Model Reasoning
-        <a href="https://arxiv.org/abs/2410.01952"><i class="fa fa-link fa-sm"></i></a>
+        <a href="/projects/SALAM/"><i class="fa fa-link fa-home"></i></a>
         <!-- <a href=""><i class="fa fa-home"></i></a> -->
       </h4>
       <em><strong>Danqing Wang</strong></em>, JianXin Ma, Fei Fang, Lei Li <br/>
       <em>ICLR 2025</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/TypedThinker.jpg" alt="TypedThinker"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/TypedThinker.jpg" alt="TypedThinker" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -46,7 +62,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>Kexun Zhang*, Shang Zhou*, <strong>Danqing Wang</strong></em>, William Yang Wang, Lei Li <br/>
       <em>NAACL 2025</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/OSCA.jpg" alt="OSCA"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/OSCA.jpg" alt="OSCA" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -57,7 +73,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em><strong>Danqing Wang</strong></em>, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian <br/>
       <em>EMNLP 2024</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/PerSE.jpg" alt="PerSE"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/PerSE.jpg" alt="PerSE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -68,7 +84,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em><strong>Danqing Wang*</strong></em>, Antonis Antoniades*, Kha-Dinh Luong, Edwin Zhang, Mert Kosan, Jiachen Li, William Yang Wang, Ambuj Singh, Lei Li <br/>
       <em>KDD 2024</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/RLHEX.jpg" alt="RLHEX"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/RLHEX.jpg" alt="RLHEX" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
 </table>
 
@@ -83,7 +99,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em><strong>Danqing Wang</strong></em>, Lei Li <br/>
       <em>EMNLP 2023</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/SALAM.jpg" alt="SALAM" style="height:150px;"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/SALAM.jpg" alt="SALAM" style="height:150px;" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -95,7 +111,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       Wenda Xu, <em><strong>Danqing Wang</strong></em>, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li <br/>
       <em>EMNLP 2023</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/InstructScore2.jpg" alt="Instructscore" ></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/InstructScore2.jpg" alt="Instructscore" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -107,7 +123,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       Kexun Zhang, <em><strong>Danqing Wang</strong></em>, Jingtao Xia, William Yang Wang, Lei Li <br/>
       <em>NeurIPS 2023</em>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/ALGO.jpg" alt="ATUE"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/ALGO.jpg" alt="ATUE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -119,7 +135,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>KDD 2023</em>
       <br/><br/>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/LSSAMP.jpg" alt="LSSAMP"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/LSSAMP.jpg" alt="LSSAMP" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
 </table>
 
@@ -135,7 +151,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>ICLR 2023</em>
       <br/><br/>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/EATLM.jpg" alt="ATUE"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/EATLM.jpg" alt="ATUE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
 </table>
 
@@ -151,7 +167,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>ACL Findings 2021</em>
       <br/><br/>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/CALMS/CALMS.jpg" alt="CALMS"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/CALMS/CALMS.jpg" alt="CALMS" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">
@@ -164,7 +180,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>NLPCC 2021</em>
       <br/><br/>
     </td>
-    <td width="35%" align="right" valign="middle"><img src="/assets/images/CNewSum/motivation.jpg" alt="CNewSum"></td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/CNewSum/motivation.jpg" alt="CNewSum" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
 </table>
 
@@ -181,7 +197,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>ACL 2020</em>
       <br/><br/>
     </td>
-    <td width="35%" align="middle" valign="middle"><img src="/assets/images/HSG.jpg" alt="HSG" style="height:200px;"></td>
+    <td width="30%" align="middle" valign="middle"><img src="/assets/images/HSG.jpg" alt="HSG" style="height:200px;" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <!-- <tr>
     <td width="70%">
@@ -254,3 +270,37 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
   <!-- <a href="topics"><i class="fas fa-bookmark"></i> Sorted by Topics</a> -->
   <a href="confs"><i class="fas fa-graduation-cap"></i> Sorted by Conference</a>
 </div>
+
+
+
+<script>
+function zoomImage(img) {
+    // Create modal container
+    const modal = document.createElement('div');
+    modal.style.position = 'fixed';
+    modal.style.zIndex = '1000';
+    modal.style.left = '0';
+    modal.style.top = '0';
+    modal.style.width = '100%';
+    modal.style.height = '100%';
+    modal.style.backgroundColor = 'rgba(0,0,0,0.9)';
+    modal.style.display = 'flex';
+    modal.style.alignItems = 'center';
+    modal.style.justifyContent = 'center';
+    
+    // Create zoomed image
+    const zoomedImg = document.createElement('img');
+    zoomedImg.src = img.src;
+    zoomedImg.style.maxWidth = '90%';
+    zoomedImg.style.maxHeight = '90%';
+    zoomedImg.style.objectFit = 'contain';
+    
+    // Add click handler to close modal
+    modal.onclick = function() {
+        document.body.removeChild(modal);
+    };
+    
+    modal.appendChild(zoomedImg);
+    document.body.appendChild(modal);
+}
+</script>

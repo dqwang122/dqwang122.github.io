@@ -3,6 +3,7 @@ _site/
 .sass-cache/
 vendor/
 .bundle/
+.vscode/
 
 # file
 .DS_Store

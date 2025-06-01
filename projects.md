@@ -12,13 +12,23 @@ title: Projects
 <i><ins>More Intelligent, More Personalized, More Collaborative</ins></i>
 <a href="#" onclick="backToTop()" class="back-to-top">Top &#8648;</a>
 
+### [TypedThinker] <em>Typed Thinking Improves Large Language Model Reasoning</em> 
+***Danqing Wang***, JianXin Ma†, Fei Fang, Lei Li   
+Carnegie Mellon University, †Qwen  
+<a href="/projects/TypedThinker/" title="Website" style="text-decoration:none;"><i class="fas fa-home"></i> Website</a>
+<a href="https://arxiv.org/pdf/2410.01952" title="Paper" style="text-decoration:none;"><i class="fa fa-file-alt"></i> Paper</a>
+<a href="/assets/PPT/20250423_ICLR2025_TypedThinker.pdf" title="Slides" style="text-decoration:none;"><i class="fas fa-file-powerpoint"></i> Slides</a>
+<a href="https://github.com/dqwang122/TypedThinker" title="Code" style="text-decoration:none;"><i class="fab fa-github"></i> Code</a>
+
+***
+
 
 ### [PerSE] <em>Learning Personalized Alignment for Evaluating Open-ended Text Generation</em> 
 ***Danqing Wang***, Kevin Yang†‡, Hanlin Zhu†‡, Xiaomeng Yang†, Andrew Cohen†, Lei Li*, Yuandong Tian†   
 UC Santa Barbara, †Meta AI, ‡UC Berkeley, *Carnegie Mellon University    
 <a href="https://storyrl.github.io" title="Website" style="text-decoration:none;"><i class="fas fa-home"></i> Website</a>
 <a href="https://arxiv.org/pdf/2310.03304.pdf" title="Paper" style="text-decoration:none;"><i class="fa fa-file-alt"></i> Paper</a>
-<!-- <a href="/assets/PPT/20230407_ICLR2023_EATLM.pdf" title="Slides" style="text-decoration:none;"><i class="fas fa-file-powerpoint"></i> Slides</a> -->
+<a href="/assets/PPT/20241210_EMNLP2024_PerSE.pdf" title="Slides" style="text-decoration:none;"><i class="fas fa-file-powerpoint"></i> Slides</a>
 <a href="https://github.com/facebookresearch/perse" title="Code" style="text-decoration:none;"><i class="fab fa-github"></i> Code</a>
 <a href="https://dl.fbaipublicfiles.com/perse/PerDOC.tar.gz" title="Resource" style="text-decoration:none;"><i class="fab fa-google-drive"></i> Dateset</a>
 <!-- <a href="https://iclr.cc/virtual/2023/poster/10766" title="Video" style="text-decoration:none;"><i class="fab fa-youtube"></i> Video</a> -->
@@ -37,7 +47,7 @@ UC Santa Barbara, *Carnegie Mellon University
 
 
 
-<h2 id="drug"><i class="fas fa-bookmark"></i> AI for Drug design</h2>
+<h2 id="drug"><i class="fas fa-bookmark"></i> AI for Drug Design</h2>
 <!-- <details>
 <summary> <i> <ins>How to find new drugs and interprete AI-decision?</ins> </i></summary>  -->
 <i> <ins>How to find new drugs and interprete AI-decision?</ins> </i>

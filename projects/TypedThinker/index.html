@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="TypedThinker: Typed Thinking Improves Large Language Model Reasoning">
+  <meta property="og:title" content="TypedThinker: Typed Thinking Improves Large Language Model Reasoning"/>
+  <meta property="og:description" content="TypedThinker: Typed Thinking Improves Large Language Model Reasoning"/>
+  <meta property="og:url" content="https://dqwang122.github.io/projects/TypedThinker/"/>
+  <meta property="og:image" content="static/images/overview.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+  <meta name="twitter:title" content="TypedThinker: Typed Thinking Improves Large Language Model Reasoning">
+  <meta name="twitter:description" content="TypedThinker: Typed Thinking Improves Large Language Model Reasoning">
+  <meta name="twitter:image" content="static/images/overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="LLM, TypedThinker, ICLR 2025, Reasoning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TypedThinker: Typed Thinking Improves Large Language Model Reasoning</title>
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="/assets/dl.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.1.1/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">TypedThinker: Typed Thinking Improves Large Language Model Reasoning</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://dqwang122.github.io/" target="_blank">Danqing Wang</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://jianxinma.github.io/" target="_blank">JianXin Ma</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://feifang.info/" target="_blank">Fei Fang</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://lileicc.github.io/" target="_blank">Lei Li</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">ICLR 2025</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2410.01952" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://github.com/dqwang122/TypedThinker" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="/assets/PPT/20250423_ICLR2025_TypedThinker.pdf" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-powerpoint"></i>
+                </span>
+                <span>Slides</span>
+                </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Large Language Models (LLMs) have demonstrated strong reasoning capabilities in solving complex problems. However, current approaches primarily enhance reasoning through the elaboration of thoughts while neglecting the diversity of reasoning types. LLMs typically employ deductive reasoning, proceeding step-by-step from given conditions, which limits their exploration during problem-solving. Our analysis reveals that certain problems are exclusively solvable through specific reasoning strategies like inductive, abductive, or analogical reasoning. However, incorporating diverse reasoning approaches presents two key challenges: identifying the appropriate reasoning type for each problem and exploiting this approach during problem-solving. Therefore, we propose the TypedThinker that predicts suitable reasoning types based on the problem and their previous effectiveness and provides relevant demonstrations to guide LLMs in applying these strategies. Experimental results show significant improvements across multiple benchmarks, with performance gains of 3.4% for Mistral 7B, 6.5% for LLaMA3 8B, and 7% for Qwen 2 7B on logical and mathematical reasoning tasks. TypedThinker enhances LLM reasoning without requiring knowledge distillation from larger models. It can be integrated into more advanced systems like GPT-4o or specialized models like MetaMath to diversify their reasoning approaches and improve their problem-solving capabilities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Paper content -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-half">
+        <h4 class="title is-4">Diverse Reasoning Types Matter</h4>
+        <div>
+            <img src="static/images/motivation.jpg" width="100%" height="100%" alt="motivation">
+        </div>
+        <br>
+        <div class="content has-text-justified">
+          <p><strong>🤔 Why do we need typed thinking?</strong></p>
+          <ul>
+          <li>Human reasoning is diverse and flexible</li>
+          <li>Current LLMs primarily use deductive reasoning</li>
+          <li>Many problems require specific reasoning types (inductive, abductive, analogical)</li>
+          <li>Limited exploration during problem-solving</li>
+          </ul>
+          <p><strong>🎯 TypedThinker's Solution</strong></p>
+          <ul>
+          <li>Predicts suitable reasoning types for each problem</li>
+          <li>Provides relevant demonstrations to guide LLMs</li>
+          <li>Enhances reasoning without requiring larger models</li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="column is-half">
+          <h4 class="title is-4">Key Challenges & Solutions</h4>
+          <div>
+              <img src="static/images/overview.jpg" width="90%" height="90%" alt="TypedThinker Framework">
+          </div>
+          <br>
+          <div class="content has-text-justified">
+            <p><strong>🔍 Two Key Challenges</strong></p>
+            <ul>
+            <li>Identifying appropriate reasoning types for each problem</li>
+            <li>Effectively applying these reasoning strategies</li>
+            </ul>
+            <p><strong>💡 Our Approach</strong></p>
+            <ul>
+            <li>Train a meta thinker to predict reasoning types based on previous effectiveness</li>
+            <li>Collect demonstrations for each reasoning type</li>
+            <li>Finetune the reasoner to better apply reasoning types</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- End paper content -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+      <div class="item">
+        <!-- Your image here -->
+        <div style="text-align: center;">
+          <img src="static/images/framework.jpg" width="80%" height="80%" alt="framework"/>
+        </div>
+        <h2 class="subtitle has-text-centered"  style="width: 80%; margin: 0 auto;">
+          Figure 1: TypedThinker. TypedThinker predicts the most suitable reasoning type for each problem and provides relevant demonstrations to guide LLMs in applying these strategies.
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/dist.jpg" width="80%" height="80%" alt="dist"/>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Figure 2: Motivation. Many problems are only solvable by one type of reasoning.
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/results.jpg" width="70%" height="70%" alt="results"/>
+        </div>
+        <h2 class="subtitle has-text-centered">
+          Figure 3: The results of TypedThinker. TypedThinker boosts the performance of LLMs on logical and mathematical reasoning tasks.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/poster.pdf" width="100%" height="550">
+          </iframe>
+
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{wang2025typedthinker,
+    title={TypedThinker: Typed Thinking Improves Large Language Model Reasoning},
+    author={Wang, Danqing and Ma, JianXin and Fang, Fei and Li, Lei},
+    journal={International Conference on Learning Representations (ICLR) 2025},
+    year={2025}
+  }</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+</body>
+</html> 
