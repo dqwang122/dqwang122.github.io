@@ -20,6 +20,9 @@ My research focuses on **Strategic Planning of Large Language Models**, especial
 
 ## <em>Experience</em>
 
+* 2025.6-Now: Research Scientist Intern, Meta AI (FAIR)
+  * Mentor: [Ansong Ni](https://niansong1996.github.io/), [Asli Celikyilmaz](http://asli.us/)
+  * Topic: Multi-agent Communication
 * 2024.3-2024.5: Research Scientist Intern, Alibaba (Team Qwen)
   * Mentor: [Jianxin Ma](https://jianxinma.github.io/)
   * Topic: Large Language Model Reasoning

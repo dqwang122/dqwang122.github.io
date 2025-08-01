@@ -24,6 +24,18 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
     </td>
     <td width="30%" align="right" valign="middle"><img src="/assets/images/TreeDebater.jpg" alt="TreeDebater" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
+  <tr>
+    <td width="70%">
+      <h4>
+        RARE: Retrieval-Aware Robustness Evaluation for Retrieval-Augmented Generation Systems
+        <a href="https://arxiv.org/abs/2506.00789"><i class="fa fa-link fa-sm"></i></a>
+        <!-- <a href=""><i class="fa-home"></i></a> -->
+      </h4>
+      Yixiao Zeng, Tianyu Cao, <em><strong>Danqing Wang</strong></em>, Xinran Zhao, Zimeng Qiu, Morteza Ziyadi, Tongshuang Wu, Lei Li <br/>
+      <em>arXiv preprint, 2025</em>
+    </td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/RARE.jpg" alt="RARE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
+  </tr>
 </table>
 
 ## 2024
