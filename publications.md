@@ -12,6 +12,30 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
 ## 2025
 
 <table>
+<tr>
+    <td width="70%">
+      <h4>
+        Learning to Interrupt in Language-based Multi-agent Communication
+        <!-- <a href=""><i class="fa fa-link fa-sm"></i></a> -->
+        <!-- <a href=""><i class="fa-home"></i></a> -->
+      </h4>
+      <em><strong>Danqing Wang</strong></em>, Da Yin, Ruta Mehta, Lei Li, Asli Celikyilmaz, and Ansong Ni <br/>
+      <em>Under submission, 2025</em>
+    </td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/HandRaiser.jpg" alt="HandRaiser" onclick="zoomImage(this)" style="cursor: pointer;"></td>
+  </tr>
+  <tr>
+    <td width="70%">
+      <h4>
+        Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
+        <a href="https://arxiv.org/abs/2512.03262"><i class="fa fa-link fa-sm"></i></a>
+        <!-- <a href=""><i class="fa-home"></i></a> -->
+      </h4>
+      Songwen Zhao, <em><strong>Danqing Wang</strong></em>, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li <br/>
+      <em>arXiv preprint, 2025</em>
+    </td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/SusVibes.jpg" alt="SusVibes" onclick="zoomImage(this)" style="cursor: pointer;"></td>
+  </tr>
   <tr>
     <td width="70%">
       <h4>
@@ -28,8 +52,8 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
     <td width="70%">
       <h4>
         RARE: Retrieval-Aware Robustness Evaluation for Retrieval-Augmented Generation Systems
-        <a href="https://arxiv.org/abs/2506.00789"><i class="fa fa-link fa-sm"></i></a>
-        <!-- <a href=""><i class="fa-home"></i></a> -->
+        <!-- <a href="https://arxiv.org/abs/2506.00789"><i class="fa fa-link fa-sm"></i></a> -->
+        <a href="https://leililab.github.io/RARE-Page/"><i class="fa fa-link fa-home"></i></a>
       </h4>
       Yixiao Zeng, Tianyu Cao, <em><strong>Danqing Wang</strong></em>, Xinran Zhao, Zimeng Qiu, Morteza Ziyadi, Tongshuang Wu, Lei Li <br/>
       <em>arXiv preprint, 2025</em>
@@ -56,7 +80,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
     <td width="70%">
       <h4>
         TypedThinker: Typed Thinking Improves Large Language Model Reasoning
-        <a href="/projects/SALAM/"><i class="fa fa-link fa-home"></i></a>
+        <a href="/projects/TypedThinker/"><i class="fa fa-link fa-home"></i></a>
         <!-- <a href=""><i class="fa fa-home"></i></a> -->
       </h4>
       <em><strong>Danqing Wang</strong></em>, JianXin Ma, Fei Fang, Lei Li <br/>

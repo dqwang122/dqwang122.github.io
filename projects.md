@@ -12,6 +12,14 @@ title: Projects
 <i><ins>More Intelligent, More Personalized, More Collaborative</ins></i>
 <a href="#" onclick="backToTop()" class="back-to-top">Top &#8648;</a>
 
+### [SusVibes] <em>Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks</em> 
+Songwen Zhao*, ***Danqing Wang***, Kexun Zhang, Jiaxuan Luo†, Zhuo Li‡, Lei Li 
+Carnegie Mellon University, *Columbia University, †Johns Hopkins University, ‡HydroX AI  
+<a href="https://arxiv.org/abs/2512.03262" title="Paper" style="text-decoration:none;"><i class="fa fa-file-alt"></i> Paper</a>
+<a href="https://github.com/LeiLiLab/susvibes" title="Code" style="text-decoration:none;"><i class="fab fa-github"></i> Code</a>
+
+***
+
 ### [TypedThinker] <em>Typed Thinking Improves Large Language Model Reasoning</em> 
 ***Danqing Wang***, JianXin Ma†, Fei Fang, Lei Li   
 Carnegie Mellon University, †Qwen  
