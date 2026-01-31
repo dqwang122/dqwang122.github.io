@@ -28,7 +28,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
     <td width="70%">
       <h4>
         Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
-        <a href="https://arxiv.org/abs/2512.03262"><i class="fa fa-link fa-sm"></i></a>
+        <a href="https://leililab.github.io/susvibes-leaderboard/"><i class="fa fa-link fa-home"></i></a>
         <!-- <a href=""><i class="fa-home"></i></a> -->
       </h4>
       Songwen Zhao, <em><strong>Danqing Wang</strong></em>, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li <br/>
@@ -44,7 +44,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
         <!-- <a href=""><i class="fa-home"></i></a> -->
       </h4>
       <em><strong>Danqing Wang*</strong></em>, Zhuorui Ye*, Xinran Zhao*, Fei Fang, Lei Li <br/>
-      <em>arXiv preprint, 2025</em>
+      <em>ICLR 2026</em>
     </td>
     <td width="30%" align="right" valign="middle"><img src="/assets/images/TreeDebater.jpg" alt="TreeDebater" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
@@ -64,6 +64,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
 
 ## 2024
 <table>
+
   <tr>
     <td width="70%">
       <h4>
@@ -110,6 +111,18 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
       <em>EMNLP 2024</em>
     </td>
     <td width="30%" align="right" valign="middle"><img src="/assets/images/PerSE.jpg" alt="PerSE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
+  </tr>
+  <tr>
+    <td width="70%">
+      <h4>
+        DNALONGBENCH: A Benchmark Suite for Long-Range DNA Prediction Tasks
+        <a href="https://www.nature.com/articles/s41467-025-65077-4"><i class="fa fa-link fa-sm"></i></a>
+        <!-- <a href=""><i class="fa fa-home"></i></a> -->
+      </h4>
+      Wenduo Cheng, Zhenqiao Song, Yang Zhang, Shike Wang, <em><strong>Danqing Wang</strong></em>, Muyu Yang, Lei Li & Jian Ma<br/>
+      <em>Nature Communications</em>
+    </td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/DNALongBench.jpg" alt="DNALongBench" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
   <tr>
     <td width="70%">

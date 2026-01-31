@@ -1,7 +1,43 @@
-- title: Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
-  date: "2025-05-12"
+- title: Learning to Interrupt in Language-based Multi-agent Communication
+  date: "2025-10-12"
   category: "under submission"
   publication: ""
+  tags:
+    - Large Language Model
+    - Multi-agent Reasoning
+  url: /
+- title: Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
+  date: "2025-10-12"
+  category: "under submission"
+  publication: ""
+  tags:
+    - Large Language Model
+    - Code Generation
+    - Security
+    - Benchmark
+  url: https://arxiv.org/abs/2512.03262
+- title: RARE Retrieval-Aware Robustness Evaluation for Retrieval-Augmented Generation Systems 
+  date: "2025-10-12"
+  category: "under submission"
+  publication: ""
+  tags:
+    - Large Language Model
+    - RAG
+    - Benchmark
+  url: https://arxiv.org/abs/2512.03262
+- title: DNALONGBENCH A Benchmark Suite for Long-range DNA Prediction Tasks  
+  date: "2024-10-12"
+  category: "Nature Communications"
+  publication: "Nature Communications"
+  tags:
+    - AI for Drug
+    - DNA
+    - Benchmark
+  url: https://arxiv.org/abs/2512.03262
+- title: Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
+  date: "2025-05-12"
+  category: "ICLR"
+  publication: "ICLR 2026"
   tags:
     - Large Language Model
     - Multi-agent Reasoning
@@ -21,6 +57,7 @@
   tags:
     - Large Language Model
     - Multi-agent Reasoning
+    - LLM Agents
   url: https://arxiv.org/abs/2410.20007
 - title: "TypedThinker: Typed Thinking Improves Large Language Model Reasoning"
   date: "2024-05-15"
