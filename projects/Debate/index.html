@@ -19,7 +19,7 @@
 
   <title>Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters</title>
 
-  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/assets/images/Debate/tree_nobg.ico">
   <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -47,7 +47,10 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters</h1>
+          <h1 class="title is-1 publication-title">
+            <img src="/assets/images/Debate/tree.png" alt="" width="60" height="60" style="vertical-align: middle; margin-right: 0.35em;">
+            Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
+          </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://dqwang122.github.io/" target="_blank">Danqing Wang*</a>,
@@ -139,7 +142,7 @@
 
 
 <!-- Paper content -->
-<section class="section hero is-small">
+<!-- <section class="section hero is-small">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-half">
@@ -161,15 +164,60 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End paper content -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/framework.jpg" width="80%" height="80%" alt="framework"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 1: The framework of TreeDebater. The tree structure enables strategic planning and rationalization of debate arguments.
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/trees.jpg" width="70%" height="70%" alt="tree"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 2: Illustration of Rehearsal Tree (a) and Debate Flow Tree (b).
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;" >
+          <img src="static/images/dist.jpg" width="80%" height="80%" alt="dist"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 3: Action types distribution in the rebuttal stage. TreeDebater effectively explores multiple strategic options, similar to human debate experts.
+        </h2>
+      </div>
+      <div class="item">
+        <div style="text-align: center;">
+          <img src="static/images/feedback.jpg" width="60%" height="60%" alt="feedback"/>
+        </div>
+        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
+          Figure 4: TreeDebater shows better logic flow, argument points and evidence. This benefits from the flow
+          tracking the debate flow tree and the prepared claims and evidence in rehearsal trees.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
 
 <!-- Results section -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Human EvaluationResults</h2>
+        <h2 class="title is-3">Human Evaluation Results</h2>
         <div class="content has-text-justified">
           <p>
             TreeDebater demonstrates superior performance compared to the Agent4Debate baseline across both Gemini and DeepSeek model settings. Our approach shows significant improvements in win rates and overall persuasiveness.
@@ -252,53 +300,11 @@
 </section>
 <!-- End results section -->
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-      <div class="item">
-        <div style="text-align: center;">
-          <img src="static/images/framework.jpg" width="80%" height="80%" alt="framework"/>
-        </div>
-        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
-          Figure 1: The framework of TreeDebater. The tree structure enables strategic planning and rationalization of debate arguments.
-        </h2>
-      </div>
-      <div class="item">
-        <div style="text-align: center;">
-          <img src="static/images/trees.jpg" width="70%" height="70%" alt="tree"/>
-        </div>
-        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
-          Figure 2: Illustration of Rehearsal Tree (a) and Debate Flow Tree (b).
-        </h2>
-      </div>
-      <div class="item">
-        <div style="text-align: center;" >
-          <img src="static/images/dist.jpg" width="80%" height="80%" alt="dist"/>
-        </div>
-        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
-          Figure 3: Action types distribution in the rebuttal stage. TreeDebater effectively explores multiple strategic options, similar to human debate experts.
-        </h2>
-      </div>
-      <div class="item">
-        <div style="text-align: center;">
-          <img src="static/images/feedback.jpg" width="60%" height="60%" alt="feedback"/>
-        </div>
-        <h2 class="subtitle has-text-centered" style="width: 80%; margin: 0 auto;">
-          Figure 4: TreeDebater shows better logic flow, argument points and evidence. This benefits from the flow
-          tracking the debate flow tree and the prepared claims and evidence in rehearsal trees.
-        </h2>
-      </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+
 
 
 <!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
+<section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -308,7 +314,7 @@
 
       </div>
     </div>
-  </section> -->
+  </section>
 <!--End paper poster -->
 
 
@@ -316,12 +322,13 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{wang2025debater,
-    title={Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters},
-    author={Wang, Danqing and Ye, Zhuorui and Zhao, Xinran and Fang, Fei and Li, Lei},
-    journal={arXiv preprint, 2025},
-    year={2025}
-  }</code></pre>
+      <pre><code>@inproceedings{wang2026strategic,
+  title={Strategic Planning and Rationalizing on Trees Make {LLM}s Better Debaters},
+  author={Danqing Wang and Zhuorui Ye and Xinran Zhao and Fei Fang and Lei Li},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=E1hbqtHrvg}
+}</code></pre>
   </div>
 </section>
 <!--End BibTeX citation -->

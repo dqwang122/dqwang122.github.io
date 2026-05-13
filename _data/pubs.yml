@@ -8,8 +8,8 @@
   url: /
 - title: Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
   date: "2025-10-12"
-  category: "under submission"
-  publication: ""
+  category: "ICML"
+  publication: "ICML 2026"
   tags:
     - Large Language Model
     - Code Generation

@@ -18,9 +18,10 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
         Learning to Interrupt in Language-based Multi-agent Communication
         <!-- <a href=""><i class="fa fa-link fa-sm"></i></a> -->
         <!-- <a href=""><i class="fa-home"></i></a> -->
+        <a href="https://arxiv.org/abs/2604.06452"><i class="fa fa-link fa-sm"></i></a>
       </h4>
       <em><strong>Danqing Wang</strong></em>, Da Yin, Ruta Mehta, Lei Li, Asli Celikyilmaz, and Ansong Ni <br/>
-      <em>Under submission, 2025</em>
+      <em>Under submission, 2026</em>
     </td>
     <td width="30%" align="right" valign="middle"><img src="/assets/images/HandRaiser.jpg" alt="HandRaiser" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
@@ -32,7 +33,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
         <!-- <a href=""><i class="fa-home"></i></a> -->
       </h4>
       Songwen Zhao, <em><strong>Danqing Wang</strong></em>, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li <br/>
-      <em>arXiv preprint, 2025</em>
+      <em>ICML 2026</em>
     </td>
     <td width="30%" align="right" valign="middle"><img src="/assets/images/SusVibes.jpg" alt="SusVibes" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>

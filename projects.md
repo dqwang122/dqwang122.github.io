@@ -12,11 +12,27 @@ title: Projects
 <i><ins>More Intelligent, More Personalized, More Collaborative</ins></i>
 <a href="#" onclick="backToTop()" class="back-to-top">Top &#8648;</a>
 
+### [TreeDebater] <em>Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters</em> 
+***Danqing Wang***, Zhuorui Ye†, Xinran Zhao, Fei Fang, Lei Li   
+Carnegie Mellon University, †Tsinghua University  
+<a href="/projects/Debate/" title="Website" style="text-decoration:none;"><i class="fas fa-home"></i> Website</a>
+<a href="https://arxiv.org/abs/2505.14886" title="Paper" style="text-decoration:none;"><i class="fa fa-file-alt"></i> Paper</a>
+<a href="https://github.com/LeiLiLab/TreeDebater" title="Code" style="text-decoration:none;"><i class="fab fa-github"></i> Code</a>
+<a href="https://iclr.cc/virtual/2026/poster/10010721" title="Video" style="text-decoration:none;"><i class="fab fa-youtube"></i> Video</a>
+<a href="/assets/PPT/20260331_ICLR2026_TreeDebater.pdf" title="Slides" style="text-decoration:none;"><i class="fas fa-file-powerpoint"></i> Slides</a>
+
+  
+
+
+---
+
 ### [SusVibes] <em>Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks</em> 
 Songwen Zhao*, ***Danqing Wang***, Kexun Zhang, Jiaxuan Luo†, Zhuo Li‡, Lei Li 
 Carnegie Mellon University, *Columbia University, †Johns Hopkins University, ‡HydroX AI  
+<a href="https://leililab.github.io/susvibes-leaderboard/#blog" title="Website" style="text-decoration:none;"><i class="fas fa-home"></i> Website</a>
 <a href="https://arxiv.org/abs/2512.03262" title="Paper" style="text-decoration:none;"><i class="fa fa-file-alt"></i> Paper</a>
 <a href="https://github.com/LeiLiLab/susvibes" title="Code" style="text-decoration:none;"><i class="fab fa-github"></i> Code</a>
+<a href="https://leililab.github.io/susvibes-leaderboard/" title="Leaderboard" style="text-decoration:none;"><i class="fas fa-chart-line"></i> Leaderboard</a>
 
 ***
 
@@ -27,6 +43,7 @@ Carnegie Mellon University, †Qwen
 <a href="https://arxiv.org/pdf/2410.01952" title="Paper" style="text-decoration:none;"><i class="fa fa-file-alt"></i> Paper</a>
 <a href="/assets/PPT/20250423_ICLR2025_TypedThinker.pdf" title="Slides" style="text-decoration:none;"><i class="fas fa-file-powerpoint"></i> Slides</a>
 <a href="https://github.com/dqwang122/TypedThinker" title="Code" style="text-decoration:none;"><i class="fab fa-github"></i> Code</a>
+
 
 ***
 
