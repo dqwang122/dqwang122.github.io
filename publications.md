@@ -9,10 +9,28 @@ title: Publications
 Full publication list can be found in [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ).
 
 
+## 2026
+
+<table>
+  <tr>
+    <td width="70%">
+      <h4>
+        <img src="/assets/images/CrabBench/crab_nobg.png" alt="" width="35" height="35" style="display: inline-block; vertical-align: middle; margin: 0 0.35em 0 0;">CRAB-Bench: Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation
+        <!-- <a href=""><i class="fa fa-link fa-sm"></i></a> -->
+        <!-- <a href=""><i class="fa-home"></i></a> -->
+        <a href="https://arxiv.org/abs/2606.01815"><i class="fa fa-link fa-sm"></i></a>
+      </h4>
+      <em><strong>Danqing Wang</strong></em>, Akshay Sivaraman, Lei Li <br/>
+      <em>Under submission, 2026</em>
+    </td>
+    <td width="30%" align="right" valign="middle"><img src="/assets/images/CrabBench.jpg" alt="CrabBench" onclick="zoomImage(this)" style="cursor: pointer;"></td>
+  </tr>
+</table>
+
 ## 2025
 
 <table>
-<tr>
+  <tr>
     <td width="70%">
       <h4>
         Learning to Interrupt in Language-based Multi-agent Communication
@@ -40,7 +58,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
   <tr>
     <td width="70%">
       <h4>
-        Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
+        <img src="/assets/images/Debate/tree_nobg.png" alt="" width="35" height="35" style="display: inline-block; vertical-align: middle; margin: 0 0.35em 0 0;">Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
         <a href="/projects/Debate/"><i class="fa fa-link fa-home"></i></a>
         <!-- <a href=""><i class="fa-home"></i></a> -->
       </h4>

@@ -20,7 +20,9 @@ My research focuses on **Strategic Planning of Large Language Models**, includin
 
 ## <em>Experience</em>
 
-* 2025.6-Now: Research Scientist Intern, Meta AI (FAIR)
+* 2026.5-Now: Research Scientist Intern, Microsoft Research (MSR)
+  * Mentor: [Baolin Peng](https://www.microsoft.com/en-us/research/people/baolinpeng/)
+* 2025.5-2025.10: Research Scientist Intern, Meta AI (FAIR)
   * Mentor: [Ansong Ni](https://niansong1996.github.io/), [Asli Celikyilmaz](http://asli.us/)
   * Topic: Multi-agent Communication
 * 2024.3-2024.5: Research Scientist Intern, Alibaba (Team Qwen)
@@ -51,5 +53,6 @@ My research focuses on **Strategic Planning of Large Language Models**, includin
 * Socal NLP Symposium [2022](https://socalnlp.github.io/symp22/index.html)
 
 ### Teaching Assistant
+* CS11868 LLM Systems [Spring 2026](https://llmsystem.github.io/llmsystem2026spring/)
 * CS190I Deep Learning [Winter 2023](https://sites.cs.ucsb.edu/~lilei/course/dl23w/)
 * CS165B Machine Learning [Spring 2023](https://sites.cs.ucsb.edu/~xyan/classes/CS165B-2023spring/)

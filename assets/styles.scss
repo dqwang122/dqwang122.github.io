@@ -34,7 +34,15 @@
 
 @import "syntax-light";
 @media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    @import "syntax-dark";
+  }
+}
+html[data-theme="dark"] {
   @import "syntax-dark";
+}
+html[data-theme="light"] {
+  @import "syntax-light";
 }
 
 // Sass for creating the swatches

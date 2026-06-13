@@ -86,6 +86,21 @@
   }
 }
 
+.theme-toggle {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  line-height: inherit;
+
+  &:hover,
+  &:focus {
+    color: var(--link-hover-color);
+    outline: none;
+  }
+}
+
 @media (max-width: $md-width) {
   .avatar-image {
     width: 15%;

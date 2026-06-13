@@ -26,9 +26,9 @@
     </ul>
   </nav>
   {%- endif -%}
-  {% if site.data.social -%}
-    <div class="social pure-menu pure-menu-horizontal">
-      <ul class="social-icons pure-menu-list">
+  <div class="social pure-menu pure-menu-horizontal">
+    <ul class="social-icons pure-menu-list">
+    {% if site.data.social -%}
       {% for social in site.data.social -%}
         <li class="pure-menu-item">
           <a class="social-icon pure-menu-link" href="{{ social.url }}">
@@ -36,7 +36,12 @@
           </a>
         </li>
       {%- endfor %}
-      </ul>
-    </div>
-  {%- endif %}
+    {%- endif %}
+      <li class="pure-menu-item">
+        <button id="theme-toggle" class="social-icon theme-toggle" type="button" aria-label="Switch theme">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+      </li>
+    </ul>
+  </div>
 </header>
