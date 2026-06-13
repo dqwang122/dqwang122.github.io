@@ -6,7 +6,7 @@ title: Projects
 
 # Open Source Repositories
 
-<h2 id="llm"><i class="fas fa-bookmark"></i> Large Language Models</h2> 
+<h2 id="llm"><i class="fas fa-bookmark"></i> Agentic Systems</h2> 
 <!-- <details>
 <summary><i><ins>More Intelligent, More Personalized, More Collaborative</ins></i></summary>    -->
 <i><ins>More Intelligent, More Personalized, More Collaborative</ins></i>

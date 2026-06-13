@@ -7,13 +7,14 @@ title: Danqing Wang
 <!-- ## Welcome to My HomePage ! -->
 ## <em>About Me</em>
 
-I am now pursuing my Ph.D. degree at LTI in Carnegie Mellon University (CMU), advised by [Prof. Lei Li](https://lileicc.github.io/). Before that I studies in UC Santa Barbara as a PhD student as a member of [UCSB NLP Group](https://nlp.cs.ucsb.edu/). I was a full-time researcher of ByteDance AI Lab.
+I am now a Ph.D. candidate at LTI in Carnegie Mellon University (CMU), advised by [Prof. Lei Li](https://lileicc.github.io/). Before that I studies in UC Santa Barbara as a PhD student as a member of [UCSB NLP Group](https://nlp.cs.ucsb.edu/). I was a full-time researcher of ByteDance AI Lab.
 I obtained my Master's and Bachelor's degrees in Computer Science from Fudan University and was a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by [Prof. Xipeng Qiu](https://xpqiu.github.io/en.html) and [Prof. Xuanjing Huang](https://nlp.fudan.edu.cn/28702/list.htm).
-My research focuses on **Strategic Planning of Large Language Models**, including LLM reasoning for complex code and math tasks, and multi-agent cooperation for games. I am also interested in **AI for Science**, such as AI-assisted Drug Discovery. You can find my resume / CV [here](/assets/CV/CV_latest.pdf).
+
+My research focuses on **Strategic Planning and Reasoning in LLM Agents**, including agent collaboration, agent competition, agent communication and agentic safety. I am also interested in **AI for Science**, such as AI-assisted Drug Discovery. You can find my resume / CV [here](/assets/CV/CV_latest.pdf).
 
 ## <em>Education</em>
 
-* 2024.1-Now: PhD in LTI, CMU
+* 2024.1-Now: PhD in LTI, CMU (Expected Graduation: 2027.6)
 * 2022.9-2023.12: PhD in Computer Science, UCSB (Transferred)
 * 2018.9-2021.1: Master in Computer Science, Fudan University
 * 2014.9-2018.6: Bachelor in Computer Science and Technology, Fudan University
