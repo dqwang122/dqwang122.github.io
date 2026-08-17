@@ -1,3 +1,5 @@
 #!/bin/sh
 
-bundle exec jekyll serve --draft --trace
+set -eu
+
+bundle exec jekyll serve --drafts --force_polling --livereload --trace "$@"

@@ -21,8 +21,6 @@ Carnegie Mellon University, †Tsinghua University
 <a href="https://iclr.cc/virtual/2026/poster/10010721" title="Video" style="text-decoration:none;"><i class="fab fa-youtube"></i> Video</a>
 <a href="/assets/PPT/20260331_ICLR2026_TreeDebater.pdf" title="Slides" style="text-decoration:none;"><i class="fas fa-file-powerpoint"></i> Slides</a>
 
-  
-
 
 ---
 

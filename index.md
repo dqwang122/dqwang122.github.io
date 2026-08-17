@@ -10,11 +10,13 @@ title: Danqing Wang
 I am now a Ph.D. candidate at LTI in Carnegie Mellon University (CMU), advised by [Prof. Lei Li](https://lileicc.github.io/). Before that I studies in UC Santa Barbara as a PhD student as a member of [UCSB NLP Group](https://nlp.cs.ucsb.edu/). I was a full-time researcher of ByteDance AI Lab.
 I obtained my Master's and Bachelor's degrees in Computer Science from Fudan University and was a member of [Fudan NLP Group](https://nlp.fudan.edu.cn/), advised by [Prof. Xipeng Qiu](https://xpqiu.github.io/en.html) and [Prof. Xuanjing Huang](https://nlp.fudan.edu.cn/28702/list.htm).
 
-My research focuses on **Strategic Planning and Reasoning in LLM Agents**, including agent collaboration, agent competition, agent communication and agentic safety. I am also interested in **AI for Science**, such as AI-assisted Drug Discovery. You can find my resume / CV [here](/assets/CV/CV_latest.pdf).
+My research focuses on **Strategic Planning and Reasoning in LLM Agents**, including agent collaboration, agent competition, agent communication and agentic safety. I am also interested in AI for Science, such as AI-assisted Drug Discovery. You can find my resume / CV [here](/assets/CV/CV_latest.pdf). 
+
+*I am currently on the job market for 2027 full-time positions. Feel free to contact me if you are interested in my research.*
 
 ## <em>Education</em>
 
-* 2024.1-Now: PhD in LTI, CMU (Expected Graduation: 2027.6)
+* 2024.1-Now: PhD in LTI, CMU (**Expected Graduation: 2027.6**)
 * 2022.9-2023.12: PhD in Computer Science, UCSB (Transferred)
 * 2018.9-2021.1: Master in Computer Science, Fudan University
 * 2014.9-2018.6: Bachelor in Computer Science and Technology, Fudan University
@@ -22,7 +24,7 @@ My research focuses on **Strategic Planning and Reasoning in LLM Agents**, inclu
 ## <em>Experience</em>
 
 * 2026.5-Now: Research Scientist Intern, Microsoft Research (MSR)
-  * Mentor: [Baolin Peng](https://www.microsoft.com/en-us/research/people/baolinpeng/)
+  * Mentor: [Baolin Peng](https://www.microsoft.com/en-us/research/people/baolinpeng/), [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
 * 2025.5-2025.10: Research Scientist Intern, Meta AI (FAIR)
   * Mentor: [Ansong Ni](https://niansong1996.github.io/), [Asli Celikyilmaz](http://asli.us/)
   * Topic: Multi-agent Communication
@@ -54,6 +56,6 @@ My research focuses on **Strategic Planning and Reasoning in LLM Agents**, inclu
 * Socal NLP Symposium [2022](https://socalnlp.github.io/symp22/index.html)
 
 ### Teaching Assistant
-* CS11868 LLM Systems [Spring 2026](https://llmsystem.github.io/llmsystem2026spring/)
-* CS190I Deep Learning [Winter 2023](https://sites.cs.ucsb.edu/~lilei/course/dl23w/)
-* CS165B Machine Learning [Spring 2023](https://sites.cs.ucsb.edu/~xyan/classes/CS165B-2023spring/)
+* CS11868 LLM Systems [Spring 2026](https://llmsystem.github.io/llmsystem2026spring/) at CMU
+* CS190I Deep Learning [Winter 2023](https://sites.cs.ucsb.edu/~lilei/course/dl23w/) at UCSB
+* CS165B Machine Learning [Spring 2023](https://sites.cs.ucsb.edu/~xyan/classes/CS165B-2023spring/) at UCSB

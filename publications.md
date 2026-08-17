@@ -39,7 +39,7 @@ Full publication list can be found in [Google Scholar](https://scholar.google.co
         <a href="https://arxiv.org/abs/2604.06452"><i class="fa fa-link fa-sm"></i></a>
       </h4>
       <em><strong>Danqing Wang</strong></em>, Da Yin, Ruta Mehta, Lei Li, Asli Celikyilmaz, and Ansong Ni <br/>
-      <em>Under submission, 2026</em>
+      <em>CoLM 2026</em>
     </td>
     <td width="30%" align="right" valign="middle"><img src="/assets/images/HandRaiser.jpg" alt="HandRaiser" onclick="zoomImage(this)" style="cursor: pointer;"></td>
   </tr>
