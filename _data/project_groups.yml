@@ -1,0 +1,14 @@
+- id: agentic
+  label: Agentic Systems
+  description: Strategic reasoning, collaboration, personalization, and secure code agents.
+  icon: fas fa-comments
+
+- id: science
+  label: AI for Science
+  description: Machine learning for molecular explanation, antibodies, and peptide discovery.
+  icon: fas fa-flask
+
+- id: summarization
+  label: Text Summarization
+  description: Faithful, multilingual, graph-based, and cross-domain summarization.
+  icon: fas fa-compress

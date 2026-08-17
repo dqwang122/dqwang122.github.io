@@ -1,0 +1,30 @@
+# Canonical topic ID to visible badge label.
+
+agents: Agents
+multi-agent: Multi-agent
+code-agents: Code Agents
+safety: Safety
+robustness: Robustness
+evaluation: Evaluation
+benchmark: Benchmark
+science: AI for Science
+summarization: Summarization
+communication: Communication
+competition: Competition
+reasoning: Reasoning
+inference: Inference
+dna: DNA
+personalization: Personalization
+explainability: Explainability
+collaboration: Collaboration
+code-generation: Code Generation
+peptides: Peptides
+antibodies: Antibodies
+multilingual: Multilingual
+dataset: Dataset
+graph-neural-networks: Graph Neural Networks
+text-matching: Text Matching
+model-analysis: Model Analysis
+domain-shift: Domain Shift
+rag: RAG
+planning: Planning

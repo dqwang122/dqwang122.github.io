@@ -1,5 +1,9 @@
 (function () {
   function systemTheme() {
+    if (!window.matchMedia) {
+      return 'light';
+    }
+
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
 
@@ -16,11 +20,6 @@
     var isDark = theme === 'dark';
     button.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
     button.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
-
-    var icon = button.querySelector('i');
-    if (icon) {
-      icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
-    }
   }
 
   function setTheme(theme) {
@@ -33,19 +32,151 @@
     setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    var button = document.getElementById('theme-toggle');
-    if (!button) {
+  function initPublicationFilters() {
+    var filterBar = document.querySelector('.publication-filters');
+    if (!filterBar) {
       return;
     }
 
-    updateToggleButton(currentTheme());
-    button.addEventListener('click', toggleTheme);
-  });
+    var buttons = filterBar.querySelectorAll('[data-publication-filter]');
+    var items = document.querySelectorAll('.publication-item[data-topics]');
+    var groups = document.querySelectorAll('[data-publication-group]');
+    var status = document.getElementById('publication-filter-status');
 
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+    function applyFilter(filter, filterTopics, label) {
+      var visibleCount = 0;
+
+      Array.prototype.forEach.call(items, function (item) {
+        var topics = (item.getAttribute('data-topics') || '').split(/\s+/);
+        var isVisible = filter === 'all' || filterTopics.some(function (topic) {
+          return topics.indexOf(topic) !== -1;
+        });
+        item.hidden = !isVisible;
+
+        if (isVisible) {
+          visibleCount += 1;
+        }
+      });
+
+      Array.prototype.forEach.call(groups, function (group) {
+        group.hidden = !group.querySelector('.publication-item:not([hidden])');
+      });
+
+      Array.prototype.forEach.call(buttons, function (button) {
+        button.setAttribute(
+          'aria-pressed',
+          button.getAttribute('data-publication-filter') === filter ? 'true' : 'false'
+        );
+      });
+
+      if (status) {
+        status.textContent = filter === 'all'
+          ? 'Showing all ' + visibleCount + ' publications.'
+          : 'Showing ' + visibleCount + ' ' + label + ' publications.';
+      }
+    }
+
+    Array.prototype.forEach.call(buttons, function (button) {
+      button.addEventListener('click', function () {
+        var filterTopics = (button.getAttribute('data-publication-topics') || '')
+          .split(/\s+/)
+          .filter(Boolean);
+
+        applyFilter(
+          button.getAttribute('data-publication-filter'),
+          filterTopics,
+          button.textContent.trim()
+        );
+      });
+    });
+
+    applyFilter('all', [], 'All');
+  }
+
+  function initPageControls() {
+    initPublicationFilters();
+
+    var button = document.getElementById('theme-toggle');
+    if (button) {
+      updateToggleButton(currentTheme());
+      button.addEventListener('click', toggleTheme);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPageControls);
+  } else {
+    initPageControls();
+  }
+
+  var colorSchemeQuery = window.matchMedia
+    ? window.matchMedia('(prefers-color-scheme: dark)')
+    : null;
+  var handleSystemThemeChange = function () {
     if (!localStorage.getItem('theme')) {
       updateToggleButton(systemTheme());
     }
-  });
+  };
+
+  if (colorSchemeQuery && colorSchemeQuery.addEventListener) {
+    colorSchemeQuery.addEventListener('change', handleSystemThemeChange);
+  } else if (colorSchemeQuery && colorSchemeQuery.addListener) {
+    colorSchemeQuery.addListener(handleSystemThemeChange);
+  }
+
+  window.zoomImage = function (img) {
+    if (!img) {
+      return;
+    }
+
+    var existingModal = document.querySelector('.image-zoom-modal');
+    if (existingModal) {
+      existingModal.remove();
+    }
+
+    var previousOverflow = document.body.style.overflow;
+    var modal = document.createElement('div');
+    var zoomedImg = document.createElement('img');
+    var closeButton = document.createElement('button');
+
+    modal.className = 'image-zoom-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-label', img.alt ? 'Expanded image: ' + img.alt : 'Expanded image');
+    modal.tabIndex = -1;
+
+    zoomedImg.src = img.currentSrc || img.src;
+    zoomedImg.alt = img.alt || '';
+
+    closeButton.className = 'image-zoom-close';
+    closeButton.type = 'button';
+    closeButton.setAttribute('aria-label', 'Close expanded image');
+    closeButton.innerHTML = '&times;';
+
+    function closeModal() {
+      document.removeEventListener('keydown', handleKeydown);
+      document.body.style.overflow = previousOverflow;
+      modal.remove();
+    }
+
+    function handleKeydown(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+      }
+    }
+
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal || event.target === zoomedImg) {
+        closeModal();
+      }
+    });
+    closeButton.addEventListener('click', closeModal);
+    document.addEventListener('keydown', handleKeydown);
+
+    modal.appendChild(zoomedImg);
+    modal.appendChild(closeButton);
+    document.body.appendChild(modal);
+    document.body.style.overflow = 'hidden';
+    modal.focus();
+  };
 })();

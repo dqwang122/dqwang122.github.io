@@ -1,0 +1,234 @@
+// Publications page: compact, responsive research record.
+
+.publications-page {
+  .content {
+    max-width: 75rem;
+  }
+
+  .sidebar-right {
+    display: none;
+  }
+}
+
+.publications-intro {
+  margin-bottom: .65rem;
+}
+
+.publication-views,
+.publication-links,
+.publication-filters,
+.publication-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: var(--text-font);
+}
+
+.publication-views {
+  gap: .5rem 1rem;
+  margin-bottom: var(--spacer-2);
+
+  a {
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+.publication-filters {
+  gap: .4rem;
+  margin-bottom: .4rem;
+
+  button {
+    min-height: 2rem;
+    padding: .3rem .65rem;
+    appearance: none;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    color: var(--body-color);
+    background: var(--body-bg);
+    cursor: pointer;
+    font: inherit;
+    font-size: .9rem;
+    font-weight: 600;
+
+    &:hover {
+      border-color: var(--link-color);
+      color: var(--link-color);
+    }
+
+    &[aria-pressed="true"] {
+      border-color: var(--link-color);
+      color: var(--body-bg);
+      background: var(--link-color);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--link-color);
+      outline-offset: 2px;
+    }
+  }
+}
+
+.publication-filter-status {
+  min-height: 1.25rem;
+  margin-bottom: var(--spacer-2);
+  color: var(--gray-600);
+  font-family: var(--text-font);
+  font-size: .9rem;
+}
+
+.publication-group {
+  margin-top: var(--spacer-2);
+
+  &[hidden] {
+    display: none;
+  }
+
+  h2 {
+    padding-bottom: .45rem;
+    margin: 0;
+    border-bottom: 2px solid var(--heading-color);
+    font-size: 1.35rem;
+    letter-spacing: 0;
+  }
+}
+
+.publication-list {
+  display: grid;
+}
+
+.publication-item {
+  display: grid;
+  min-width: 0;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--border-color);
+  grid-template-columns: minmax(0, 1fr) 14rem;
+  gap: var(--spacer-2);
+  align-items: center;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.publication-item-no-image {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.publication-details {
+  min-width: 0;
+
+  h3 {
+    margin: .35rem 0 .45rem;
+    font-size: 1.17rem;
+    letter-spacing: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+.publication-meta {
+  gap: .35rem .45rem;
+}
+
+.publication-venue,
+.publication-topic {
+  font-size: .88rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.publication-venue {
+  color: var(--link-color);
+}
+
+.publication-topic {
+  padding: .08rem .38rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: rgba(134, 142, 150, .08);
+}
+
+.publication-authors {
+  margin-bottom: .6rem;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.publication-links {
+  gap: .45rem .85rem;
+
+  a {
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+.publication-figure {
+  display: flex;
+  width: 14rem;
+  height: 9rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: .4rem;
+  appearance: none;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: #fff;
+  cursor: zoom-in;
+
+  &:hover {
+    border-color: var(--link-color);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+    object-fit: contain;
+  }
+}
+
+.publication-note {
+  margin-top: var(--spacer-2);
+  font-size: 1rem;
+}
+
+@media (min-width: $lg-width) {
+  .publications-page .content {
+    width: 75%;
+  }
+}
+
+@media (max-width: 56rem) {
+  .publication-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .8rem;
+  }
+
+  .publication-figure {
+    width: 100%;
+    max-width: 24rem;
+    height: 11rem;
+  }
+}
+
+@media (max-width: $sm-width) {
+  .publication-views {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .publication-figure {
+    max-width: none;
+    height: 11rem;
+  }
+}

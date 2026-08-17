@@ -1,189 +1,488 @@
-- title: Learning to Interrupt in Language-based Multi-agent Communication
-  date: "2025-10-12"
-  category: "CoLM"
-  publication: "CoLM 2026"
-  tags:
-    - Large Language Model
-    - Multi-agent Reasoning
-  url: /
-- title: Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
-  date: "2025-10-12"
-  category: "ICML"
-  publication: "ICML 2026"
-  tags:
-    - Large Language Model
-    - Code Generation
-    - Security
-    - Benchmark
-  url: https://arxiv.org/abs/2512.03262
-- title: RARE Retrieval-Aware Robustness Evaluation for Retrieval-Augmented Generation Systems 
-  date: "2025-10-12"
-  category: "under submission"
+# `topics` drives both visible badges and main-page filter membership.
+# `publication_filters.yml` defines which topic IDs each filter includes.
+# `show_on_projects` and `project_*` fields drive the Projects portfolio.
+
+- id: crab-bench
+  title: "CRAB-Bench: Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation"
+  date: "2026-06-01"
+  category: Under Review
   publication: ""
-  tags:
-    - Large Language Model
-    - RAG
-    - Benchmark
+  venue: Under Review 2026
+  section: under-review
+  show_on_main: true
+  topics: [multi-agent, benchmark]
+  authors_html: "<strong>Danqing Wang</strong>, Akshay Sivaraman, Lei Li"
+  url: https://arxiv.org/abs/2606.01815
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2606.01815", icon: "fas fa-file-alt"}
+  image: /assets/images/CrabBench.jpg
+  image_alt: Overview of CRAB-Bench
+
+- id: learning-to-interrupt
+  title: Learning to Interrupt in Language-based Multi-agent Communication
+  date: "2026-04-01"
+  category: CoLM
+  publication: CoLM 2026
+  venue: CoLM 2026
+  section: "2026"
+  show_on_main: true
+  topics: [communication, multi-agent]
+  authors_html: "<strong>Danqing Wang</strong>, Da Yin, Ruta Mehta, Lei Li, Asli Celikyilmaz, Ansong Ni"
+  url: https://arxiv.org/abs/2604.06452
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2604.06452", icon: "fas fa-file-alt"}
+  image: /assets/images/HandRaiser.jpg
+  image_alt: Interruptible and non-interruptible agent communication
+
+- id: susvibes
+  title: Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
+  date: "2026-01-01"
+  category: ICML
+  publication: ICML 2026
+  venue: ICML 2026
+  section: "2026"
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 2
+  project_name: SusVibes
+  project_summary: "SusVibes benchmarks 187 real-world feature requests and reveals a sharp gap between functional correctness and security in code produced by leading coding agents."
+  topics: [safety, code-agents, benchmark]
+  authors_html: "Songwen Zhao, <strong>Danqing Wang</strong>, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li"
   url: https://arxiv.org/abs/2512.03262
-- title: DNALONGBENCH A Benchmark Suite for Long-range DNA Prediction Tasks  
-  date: "2024-10-12"
-  category: "Nature Communications"
-  publication: "Nature Communications"
-  tags:
-    - AI for Drug
-    - DNA
-    - Benchmark
-  url: https://arxiv.org/abs/2512.03262
-- title: Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
-  date: "2025-05-12"
-  category: "ICLR"
-  publication: "ICLR 2026"
-  tags:
-    - Large Language Model
-    - Multi-agent Reasoning
+  links:
+    - {label: Project, url: "https://leililab.github.io/susvibes-leaderboard/#blog", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2512.03262", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/LeiLiLab/susvibes", icon: "fab fa-github"}
+    - {label: Leaderboard, url: "https://leililab.github.io/susvibes-leaderboard/", icon: "fas fa-chart-line"}
+  image: /assets/images/SusVibes.jpg
+  image_alt: Overview of the SusVibes security benchmark
+
+- id: tree-debater
+  title: Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
+  date: "2026-01-01"
+  category: ICLR
+  publication: ICLR 2026
+  venue: ICLR 2026
+  section: "2026"
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 1
+  project_name: TreeDebater
+  project_summary: "TreeDebater uses rehearsal and debate-flow trees to anticipate attacks, track active arguments, and allocate limited speaking time for more persuasive LLM debates."
+  topics: [competition, multi-agent]
+  authors_html: "<strong>Danqing Wang*</strong>, Zhuorui Ye*, Xinran Zhao*, Fei Fang, Lei Li"
   url: https://arxiv.org/abs/2505.14886
-- title: Scaling LLM Inference with Optimized Sample Compute Allocation
-  date: "2024-10-12"
-  category: "NAACL"
-  publication: "NAACL 2025"
-  tags:
-    - Large Language Model
-    - Inference Algorithm
-  url: https://arxiv.org/abs/2505.14886
-- title: "Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models"
-  date: "2024-06-01"
-  category: "under submission"
-  publication: ""
-  tags:
-    - Large Language Model
-    - Multi-agent Reasoning
-    - LLM Agents
-  url: https://arxiv.org/abs/2410.20007
-- title: "TypedThinker: Typed Thinking Improves Large Language Model Reasoning"
-  date: "2024-05-15"
-  category: "ICLR"
-  publication: "ICLR 2025"
-  tags:
-    - Large Language Model
-    - Multi-agent Reasoning
+  links:
+    - {label: Project, url: "/projects/Debate/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2505.14886", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/LeiLiLab/TreeDebater", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20260331_ICLR2026_TreeDebater.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Video, url: "https://iclr.cc/virtual/2026/poster/10010721", icon: "fab fa-youtube"}
+  image: /assets/images/TreeDebater.jpg
+  image_alt: Overview of the TreeDebater method
+
+- id: typed-thinker
+  title: "TypedThinker: Typed Thinking Improves Large Language Model Reasoning"
+  date: "2025-01-01"
+  category: ICLR
+  publication: ICLR 2025
+  venue: ICLR 2025
+  section: "2025"
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 3
+  project_name: TypedThinker
+  project_summary: "TypedThinker predicts when to use deductive, inductive, abductive, or analogical reasoning and supplies targeted demonstrations to diversify LLM problem solving."
+  topics: [reasoning, multi-agent]
+  authors_html: "<strong>Danqing Wang</strong>, Jianxin Ma, Fei Fang, Lei Li"
   url: https://arxiv.org/abs/2410.01952
-- title: "Learning Personalized Alignment for Evaluating Open-ended Text Generation"
-  date: "2023-09-15"
-  category: "EMNLP"
-  publication: "EMNLP 2024"
-  tags:
-    - Large Language Model
-    - Evaluation
-    - Personalization
+  links:
+    - {label: Project, url: "/projects/TypedThinker/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2410.01952", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/TypedThinker", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20250423_ICLR2025_TypedThinker.pdf", icon: "fas fa-file-powerpoint"}
+  image: /assets/images/TypedThinker.jpg
+  image_alt: Overview of the TypedThinker method
+
+- id: osca
+  title: Scaling LLM Inference with Optimized Sample Compute Allocation
+  date: "2025-01-01"
+  category: NAACL
+  publication: NAACL 2025
+  venue: NAACL 2025
+  section: "2025"
+  show_on_main: true
+  topics: [inference]
+  authors_html: "Kexun Zhang*, Shang Zhou*, <strong>Danqing Wang</strong>, William Yang Wang, Lei Li"
+  url: https://arxiv.org/abs/2410.22480
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2410.22480", icon: "fas fa-file-alt"}
+  image: /assets/images/OSCA.jpg
+  image_alt: Overview of optimized sample compute allocation
+
+- id: dna-long-bench
+  title: "DNALongBench: A Benchmark Suite for Long-Range DNA Prediction Tasks"
+  date: "2025-01-01"
+  category: Nature Communications
+  publication: Nature Communications 2025
+  venue: Nature Communications 2025
+  section: "2025"
+  show_on_main: true
+  topics: [science, dna, benchmark]
+  authors_html: "Wenduo Cheng, Zhenqiao Song, Yang Zhang, Shike Wang, <strong>Danqing Wang</strong>, Muyu Yang, Lei Li, Jian Ma"
+  url: https://www.nature.com/articles/s41467-025-65077-4
+  links:
+    - {label: Paper, url: "https://www.nature.com/articles/s41467-025-65077-4", icon: "fas fa-file-alt"}
+  image: /assets/images/DNALongBench.jpg
+  image_alt: Overview of the DNALongBench benchmark
+
+- id: perse
+  title: Learning Personalized Alignment for Evaluating Open-ended Text Generation
+  date: "2024-01-01"
+  category: EMNLP
+  publication: EMNLP 2024
+  venue: EMNLP 2024
+  section: "2024"
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 4
+  project_name: PerSE
+  project_summary: "PerSE infers a reviewer's preferences from an in-context profile to deliver interpretable, fine-grained evaluations of how well open-ended generations align with that individual."
+  topics: [evaluation, personalization]
+  authors_html: "<strong>Danqing Wang</strong>, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian"
   url: https://arxiv.org/abs/2310.03304
-- title: "Searching for Effective Neural Extractive Summarization: What Works and What's Next"
-  date: "2019-02-01"
-  category: "ACL"
-  publication: "ACL 2019"
-  tags:
-    - Text Summarization
-  url: https://arxiv.org/abs/1907.03491
-- title: "Extractive Summarization as Text Matching"
-  date: "2020-02-01"
-  category: "ACL"
-  publication: "ACL 2020"
-  tags:
-    - Text Summarization
-  url: https://arxiv.org/abs/2004.08795
-- title: "Heterogeneous Graph Neural Networks for Extractive Document Summarization"
-  date: "2020-02-01"
-  category: "ACL"
-  publication: "ACL 2020"
-  tags:
-    - Text Summarization
-    - Graph Neural Network
-  url: https://aclanthology.org/2020.acl-main.553
-- title: "Contrastive Aligned Joint Learning for Multilingual Summarization"
-  date: "2021-02-01"
-  category: "ACL Findings"
-  publication: "ACL Findings 2021"
-  tags:
-    - Text Summarization
-    - Multilingual Generation
-    - Benchmark
-  url: /projects/CALMS
-- title: "MTG: A Benchmark Suite for Multilingual Text Generation"
-  date: "2021-05-01"
-  category: "NAACL Findings"
-  publication: "NAACL Findings 2022"
-  tags:
-    - Multilingual Generation
-    - Benchmark
-  url: https://arxiv.org/abs/2108.07140
-- title: "CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level"
-  date: "2022-02-01"
-  category: "NLPCC"
-  publication: "NLPCC 2022"
-  tags:
-    - Text Summarization
-    - Benchmark
-  url: /projects/CNewSum
-- title: "Enhancing Scientific Papers Summarization with Citation Graph"
-  date: "2021-09-01"
-  category: "AAAI"
-  publication: "AAAI 2021"
-  tags:
-    - Text Summarization
-  url: https://ojs.aaai.org/index.php/AAAI/article/view/17482/17289
-- title: "CDEvalSumm: An Empirical Study of Cross-dataset Evaluation for Neural Summarization Systems"
-  date: "2020-05-01"
-  category: "EMNLP Findings"
-  publication: "EMNLP Findings 2020"
-  tags:
-    - Text Summarization
-  url: https://arxiv.org/pdf/2010.05139
-- title: "On Pre-training Language Model for Antibody"
-  date: "2022-05-01"
-  category: "ICLR"
-  publication: "ICLR 2023"
-  tags:
-    - AI for Drug
-    - Protein & Peptite
-    - Benchmark
-  url: /projects/EATLM/
-- title: "Accelerating Antimicrobial Peptide Discovery with Latent Structure"
-  date: "2022-02-01"
-  category: "KDD"
-  publication: "KDD 2023"
-  tags:
-    - AI for Drug
-    - Protein & Peptite
-  url: /projects/LSSAMP
-- title: "Global Human-guided Counterfactual Explanations for Molecular Properties via Reinforcement Learning"
-  date: "2024-02-01"
-  category: "KDD"
-  publication: "KDD 2024"
-  tags:
-    - AI for Drug
-    - Molecule
-    - Graph Neural Network
-  url: https://arxiv.org/abs/2406.13869
-- title: "Learning from Mistakes via Cooperative Study Assistant for Large Language Models "
-  date: "2023-05-01"
-  category: "EMNLP"
-  publication: "EMNLP 2023"
-  tags:
-    - Large Language Model
-    - Multi-agent Reasoning
-  url: /projects/SALAM/
-- title: "InstructScore: Towards Explainable Text Generation Evaluation with Automatic Feedback"
-  date: "2023-05-01"
-  category: "EMNLP"
-  publication: "EMNLP 2023"
-  tags:
-    - Large Language Model
-    - Evaluation
+  links:
+    - {label: Project, url: "https://storyrl.github.io", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2310.03304", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/facebookresearch/perse", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20241210_EMNLP2024_PerSE.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Dataset, url: "https://dl.fbaipublicfiles.com/perse/PerDOC.tar.gz", icon: "fas fa-database"}
+  image: /assets/images/PerSE.jpg
+  image_alt: Overview of personalized alignment evaluation
+
+- id: rlhex
+  title: Global Human-guided Counterfactual Explanations for Molecular Properties via Reinforcement Learning
+  date: "2024-01-01"
+  category: KDD
+  publication: KDD 2024
+  venue: KDD 2024
+  section: "2024"
+  show_on_main: true
+  show_on_projects: true
+  project_group: science
+  project_order: 1
+  project_name: RLHEX
+  project_summary: "RLHEX combines a variational graph generator with reinforcement learning to produce global molecular counterfactual explanations aligned with human-defined principles."
+  topics: [science, explainability]
+  authors_html: "<strong>Danqing Wang*</strong>, Antonis Antoniades*, Kha-Dinh Luong, Edwin Zhang, Mert Kosan, Jiachen Li, William Yang Wang, Ambuj Singh, Lei Li"
+  url: https://doi.org/10.1145/3637528.3672045
+  links:
+    - {label: Paper, url: "https://doi.org/10.1145/3637528.3672045", icon: "fas fa-file-alt"}
+    - {label: Preprint, url: "https://arxiv.org/abs/2406.13869", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/RLHEX", icon: "fab fa-github"}
+  image: /assets/images/RLHEX.jpg
+  image_alt: Overview of human-guided molecular counterfactual explanations
+
+- id: salam
+  title: Learning from Mistakes via Cooperative Study Assistant for Large Language Models
+  date: "2023-01-01"
+  category: EMNLP
+  publication: EMNLP 2023
+  venue: EMNLP 2023
+  section: "2023"
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 5
+  project_name: SALAM
+  project_summary: "SALAM pairs an LLM with a cooperative study assistant that records prior mistakes and retrieves tailored guidance to help the model avoid recurring reasoning errors."
+  topics: [collaboration, multi-agent]
+  authors_html: "<strong>Danqing Wang</strong>, Lei Li"
+  url: https://arxiv.org/abs/2305.13829
+  links:
+    - {label: Project, url: "/projects/SALAM/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2305.13829", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/SALAM", icon: "fab fa-github"}
+  image: /assets/images/SALAM.jpg
+  image_alt: Overview of the SALAM cooperative study assistant
+
+- id: instruct-score
+  title: "InstructScore: Towards Explainable Text Generation Evaluation with Automatic Feedback"
+  date: "2023-01-01"
+  category: EMNLP
+  publication: EMNLP 2023
+  venue: EMNLP 2023
+  section: "2023"
+  show_on_main: true
+  topics: [evaluation]
+  authors_html: "Wenda Xu, <strong>Danqing Wang</strong>, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li"
   url: https://aclanthology.org/2023.emnlp-main.365/
-- title: "ALGO: synthesizing algorithmic programs with LLM-generated oracle verifiers"
-  date: "2023-02-01"
-  category: "NeurIPS"
-  publication: "NeurIPS 2023"
-  tags:
-    - Large Language Model
-    - Code Generation
-  url: https://arxiv.org/pdf/2305.14591
+  links:
+    - {label: Paper, url: "https://aclanthology.org/2023.emnlp-main.365/", icon: "fas fa-file-alt"}
+  image: /assets/images/InstructScore2.jpg
+  image_alt: Overview of InstructScore
+
+- id: algo
+  title: "ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers"
+  date: "2023-01-01"
+  category: NeurIPS
+  publication: NeurIPS 2023
+  venue: NeurIPS 2023
+  section: "2023"
+  show_on_main: true
+  topics: [code-generation]
+  authors_html: "Kexun Zhang, <strong>Danqing Wang</strong>, Jingtao Xia, William Yang Wang, Lei Li"
+  url: https://arxiv.org/abs/2305.14591
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2305.14591", icon: "fas fa-file-alt"}
+  image: /assets/images/ALGO.jpg
+  image_alt: Overview of ALGO
+
+- id: lssamp
+  title: Accelerating Antimicrobial Peptide Discovery with Latent Structure
+  date: "2023-01-01"
+  category: KDD
+  publication: KDD 2023
+  venue: KDD 2023
+  section: "2023"
+  show_on_main: true
+  show_on_projects: true
+  project_group: science
+  project_order: 3
+  project_name: LSSAMP
+  project_summary: "LSSAMP jointly models peptide sequences and secondary structures in a quantized latent space to generate antimicrobial candidates, two of which showed strong activity in wet-lab tests."
+  topics: [science, peptides]
+  authors_html: "<strong>Danqing Wang</strong>, Zeyu Wen, Fei Ye, Lei Li, Hao Zhou"
+  url: https://doi.org/10.1145/3580305.3599249
+  links:
+    - {label: Project, url: "/projects/LSSAMP/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://doi.org/10.1145/3580305.3599249", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/LSSAMP", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20230807_KDD2023_LSSAMP.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Video, url: "https://dl.acm.org/doi/10.1145/3580305.3599249", icon: "fab fa-youtube"}
+  image: /assets/images/LSSAMP.jpg
+  image_alt: Overview of latent-structure antimicrobial peptide discovery
+
+- id: eatlm
+  title: On Pre-training Language Model for Antibody
+  date: "2023-01-01"
+  category: ICLR
+  publication: ICLR 2023
+  venue: ICLR 2023
+  section: "2023"
+  show_on_main: true
+  show_on_projects: true
+  project_group: science
+  project_order: 2
+  project_name: EATLM & ATUE
+  project_summary: "EATLM and the ATUE benchmark examine how general and antibody-specific protein language models transfer across antibody tasks and where biologically informed pre-training helps."
+  topics: [science, antibodies, benchmark]
+  authors_html: "<strong>Danqing Wang</strong>, Fei Ye, Hao Zhou"
+  url: https://arxiv.org/abs/2301.12112
+  links:
+    - {label: Project, url: "/projects/EATLM/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2301.12112", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/EATLM", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20230407_ICLR2023_EATLM.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Dataset, url: "https://zenodo.org/record/7340488", icon: "fas fa-database"}
+    - {label: Video, url: "https://iclr.cc/virtual/2023/poster/10766", icon: "fab fa-youtube"}
+  image: /assets/images/EATLM.jpg
+  image_alt: Overview of antibody language-model pre-training
+
+- id: calms
+  title: Contrastive Aligned Joint Learning for Multilingual Summarization
+  date: "2021-01-01"
+  category: ACL Findings
+  publication: ACL Findings 2021
+  venue: ACL Findings 2021
+  section: "2021"
+  show_on_main: true
+  show_on_projects: true
+  project_group: summarization
+  project_order: 1
+  project_name: CALMS
+  project_summary: "CALMS uses contrastive sentence ranking and sentence-aligned substitution to improve multilingual summarization in both high- and low-resource languages."
+  topics: [summarization, multilingual, benchmark]
+  authors_html: "<strong>Danqing Wang</strong>, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li"
+  url: https://aclanthology.org/2021.findings-acl.242/
+  links:
+    - {label: Project, url: "/projects/CALMS/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://aclanthology.org/2021.findings-acl.242/", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/CALMS", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20210624_ACL2021_CALMS.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Dataset, url: "https://drive.google.com/file/d/1i9xfOkQ60kixj0rZ-kCo8UCo2fZ51fCY/view?usp=sharing", icon: "fas fa-database"}
+    - {label: Blog, url: "/blogs/CALMS/", icon: "fas fa-arrow-circle-right"}
+  image: /assets/images/CALMS/CALMS.jpg
+  image_alt: Overview of multilingual summarization with CALMS
+
+- id: cnewsum
+  title: "CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level"
+  date: "2021-01-01"
+  category: NLPCC
+  publication: NLPCC 2021
+  venue: NLPCC 2021
+  section: "2021"
+  show_on_main: true
+  show_on_projects: true
+  project_group: summarization
+  project_order: 2
+  project_name: CNewSum
+  project_summary: "CNewSum provides 304,307 Chinese news documents with human-written summaries and test-set adequacy and deducibility annotations for diagnosing summarization systems."
+  topics: [summarization, dataset, benchmark]
+  authors_html: "<strong>Danqing Wang</strong>, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li"
+  url: https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31
+  links:
+    - {label: Project, url: "/projects/CNewSum/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://link.springer.com/chapter/10.1007/978-3-030-88480-2_31", icon: "fas fa-file-alt"}
+    - {label: Slides, url: "/assets/PPT/20211016_NLPCC2021_CNewSum.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Dataset, url: "https://drive.google.com/file/d/1A_YcQ3cBAI7u9iVIoCeVLLgwU7UUzHHv/view?usp=sharing", icon: "fas fa-database"}
+    - {label: Blog, url: "/blogs/CNewSum/", icon: "fas fa-arrow-circle-right"}
+  image: /assets/images/CNewSum/motivation.jpg
+  image_alt: Motivation for the CNewSum dataset
+
+- id: heter-sum-graph
+  title: Heterogeneous Graph Neural Networks for Extractive Document Summarization
+  date: "2020-01-01"
+  category: ACL
+  publication: ACL 2020
+  venue: ACL 2020
+  section: "2020"
+  show_on_main: true
+  show_on_projects: true
+  project_group: summarization
+  project_order: 3
+  project_name: HeterSumGraph
+  project_summary: "HeterSumGraph connects sentence nodes through finer-grained semantic units in a heterogeneous graph to enrich cross-sentence modeling for extractive summarization."
+  topics: [summarization, graph-neural-networks]
+  authors_html: "<strong>Danqing Wang*</strong>, Pengfei Liu*, Yining Zheng, Xipeng Qiu, Xuanjing Huang"
+  url: https://aclanthology.org/2020.acl-main.553/
+  links:
+    - {label: Paper, url: "https://aclanthology.org/2020.acl-main.553/", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/dqwang122/HeterSumGraph", icon: "fab fa-github"}
+    - {label: Slides, url: "/assets/PPT/20200616_ACL2020_HSG.pdf", icon: "fas fa-file-powerpoint"}
+  project_links:
+    - {label: Video, url: "https://slideslive.com/38929003", icon: "fab fa-youtube"}
+    - {label: Blog, url: "/blogs/HSG/", icon: "fas fa-arrow-circle-right"}
+  image: /assets/images/HSG.jpg
+  image_alt: Overview of HeterSumGraph
+
+- id: match-sum
+  title: Extractive Summarization as Text Matching
+  date: "2020-01-01"
+  category: ACL
+  publication: ACL 2020
+  venue: ACL 2020
+  section: "2020"
+  show_on_main: true
+  topics: [summarization, text-matching]
+  authors_html: "Ming Zhong*, Pengfei Liu*, Yiran Chen, <strong>Danqing Wang</strong>, Xipeng Qiu, Xuanjing Huang"
+  url: https://arxiv.org/abs/2004.08795
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2004.08795", icon: "fas fa-file-alt"}
+  image: /assets/images/MatchSum.jpg
+  image_alt: Overview of extractive summarization as text matching
+
+- id: effective-summarization
+  title: "Searching for Effective Neural Extractive Summarization: What Works and What's Next"
+  date: "2019-01-01"
+  category: ACL
+  publication: ACL 2019
+  venue: ACL 2019
+  section: "2019"
+  show_on_main: true
+  topics: [summarization, model-analysis]
+  authors_html: "Ming Zhong*, Pengfei Liu*, <strong>Danqing Wang*</strong>, Xipeng Qiu, Xuanjing Huang"
+  url: https://arxiv.org/abs/1907.03491
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/1907.03491", icon: "fas fa-file-alt"}
+
+- id: domain-shift
+  title: Exploring Domain Shift in Extractive Text Summarization
+  date: "2019-01-01"
+  category: Preprint
+  publication: arXiv 2019
+  venue: arXiv 2019
+  section: "2019"
+  show_on_main: true
+  show_on_projects: true
+  project_group: summarization
+  project_order: 4
+  project_name: MULTI-SUM
+  project_summary: "MULTI-SUM defines summarization domains by data source, measures cross-domain generalization gaps, and provides a testbed for comparing four adaptation strategies."
+  topics: [summarization, domain-shift]
+  authors_html: "<strong>Danqing Wang*</strong>, Pengfei Liu*, Ming Zhong, Jie Fu, Xipeng Qiu, Xuanjing Huang"
+  url: https://arxiv.org/abs/1908.11664
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/1908.11664", icon: "fas fa-file-alt"}
+  project_links:
+    - {label: Dataset, url: "https://drive.google.com/file/d/1KOOVBO6z24aM36fdV9xc-Vyu31QAL4Gs/view?usp=sharing", icon: "fas fa-database"}
+
+- id: rare
+  title: "RARE: Retrieval-Aware Robustness Evaluation for Retrieval-Augmented Generation Systems"
+  date: "2025-01-01"
+  category: Preprint
+  publication: arXiv 2025
+  venue: arXiv 2025
+  section: preprints
+  show_on_main: true
+  topics: [rag, robustness, benchmark]
+  authors_html: "Yixiao Zeng, Tianyu Cao, <strong>Danqing Wang</strong>, Xinran Zhao, Zimeng Qiu, Morteza Ziyadi, Tongshuang Wu, Lei Li"
+  url: https://arxiv.org/abs/2506.00789
+  links:
+    - {label: Project, url: "https://leililab.github.io/RARE-Page/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2506.00789", icon: "fas fa-file-alt"}
+  image: /assets/images/RARE.jpg
+  image_alt: Overview of the RARE benchmark
+
+- id: co-planner
+  title: Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models
+  date: "2024-01-01"
+  category: Preprint
+  publication: arXiv 2024
+  venue: arXiv 2024
+  section: preprints
+  show_on_main: true
+  topics: [multi-agent, planning]
+  authors_html: "<strong>Danqing Wang</strong>, Zhuorui Ye, Fei Fang, Lei Li"
+  url: https://arxiv.org/abs/2410.20007
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2410.20007", icon: "fas fa-file-alt"}
+  image: /assets/images/CoPlanner.jpg
+  image_alt: Overview of cooperative strategic planning
+
+- id: mtg
+  title: "MTG: A Benchmark Suite for Multilingual Text Generation"
+  date: "2022-01-01"
+  category: NAACL Findings
+  publication: NAACL Findings 2022
+  show_on_main: false
+  topics: [multilingual, benchmark]
+  url: https://arxiv.org/abs/2108.07140
+
+- id: scientific-paper-summarization
+  title: Enhancing Scientific Papers Summarization with Citation Graph
+  date: "2021-01-01"
+  category: AAAI
+  publication: AAAI 2021
+  show_on_main: false
+  topics: [summarization]
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/17482/17289
+
+- id: cdeval-summ
+  title: "CDEvalSumm: An Empirical Study of Cross-dataset Evaluation for Neural Summarization Systems"
+  date: "2020-01-01"
+  category: EMNLP Findings
+  publication: EMNLP Findings 2020
+  show_on_main: false
+  topics: [summarization, evaluation]
+  url: https://arxiv.org/pdf/2010.05139

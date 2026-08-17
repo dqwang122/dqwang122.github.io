@@ -68,6 +68,13 @@ footer {
   .content {
     width: 100%;
   }
+
+  .sidebar-left {
+    height: auto;
+    min-height: 18rem;
+    padding: var(--spacer-2) var(--spacer);
+    background-position: center 58%;
+  }
 }
 
 @media (min-width: $md-width) and (max-width: $lg-width) {

@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body{% if page.url == "/" %} class="home-page"{% elsif page.body_class %} class="{{ page.body_class | escape }}"{% endif %}>
 
     <div class="container">
       {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
@@ -31,7 +31,7 @@
     </div>
 
     <script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
-    <script src="{{ 'assets/theme.js' | relative_url }}"></script>
+    <script src="{{ 'assets/theme.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 
     {%- include scroll.html -%}
 

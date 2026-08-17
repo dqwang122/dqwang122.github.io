@@ -6,96 +6,82 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-{% comment %} Check the type of archive {% endcomment %}
-{%- if page.type == 'categories' -%}
-  {%- assign taxonomies = site.data.pubs | group_by_exp: "item", "item.category" -%}
-  {%- assign all_tags = site.data.pubs | map: "category" | flatten | uniq | sort -%}
-{%- elsif page.type == 'tags' -%}
-  {%- assign taxonomies = site.data.pubs | group_by_exp: "item", "item.tags" -%}
-  {%- assign all_tags = site.data.pubs | map: "tags" | flatten | uniq | sort -%}
+{%- if page.type == "categories" -%}
+  {%- assign all_taxonomies = site.data.pubs | map: "category" | uniq | sort -%}
+{%- elsif page.type == "tags" -%}
+  {%- assign all_taxonomies = site.data.pubs | map: "topics" | flatten | uniq | sort -%}
 {%- else -%}
-  {%- assign taxonomies = none -%}
+  {%- assign all_taxonomies = empty -%}
 {%- endif -%}
 
-{% comment %} Sort the pub {% endcomment %}
-{%- assign sorted_pub = site.data.pubs | sort: "date" | date: '%Y-%m' | reverse -%}
+{%- assign sorted_pubs = site.data.pubs | sort: "date" | reverse -%}
 
-
-{% comment %} Calculate the max count of taxonomies {% endcomment %}
-{%- assign max_count = 0 -%}
-{%- for pub in site.data.pubs -%}
-  {% if pub.tags contains tag %}
-  {%- assign max_count = max_count | plus: 1 -%}
-  {% endif %}
-{%- endfor -%}
-
-<!-- Add buttons here -->
-<div class="btn-group" role="group" aria-label="Sort Options">  
-  <a href="/publications/years"><i class="fas fa-calendar-alt"></i> Sorted by Year</a>
-  <a href="/publications/tags"><i class="fas fa-tags"></i> Sorted by Tags</a>
-  <!-- <a href="/publications/topics"><i class="fas fa-bookmark"></i> Sorted by Topics</a> -->
-  <a href="/publications/confs"><i class="fas fa-graduation-cap"></i> Sorted by Conference</a>
+<div class="btn-group" role="group" aria-label="Sort Options">
+  <a href="/publications/years"><i class="fas fa-calendar-alt" aria-hidden="true"></i> Sorted by Year</a>
+  <a href="/publications/tags"><i class="fas fa-tags" aria-hidden="true"></i> Sorted by Tags</a>
+  <a href="/publications/confs"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Sorted by Conference</a>
 </div>
 <div class="btn-group" role="group" aria-label="Navigation">
   <a href="/publications" class="btn btn-secondary">
-    <i class="fas fa-arrow-left"></i> Return
+    <i class="fas fa-arrow-left" aria-hidden="true"></i> Return
   </a>
 </div>
-
 
 <div class="taxonomies-wrapper">
   <ul class="taxonomies">
-    {% for tag in all_tags %}
-      {% assign tag_size = 0 %}
-      {% for pub in sorted_pub %}
-        {% if pub.tags contains tag or pub.category == tag %}
-        {% assign tag_size = tag_size | plus: 1 %}
-        {% endif %}
-      {%- endfor -%}
+    {%- for taxonomy in all_taxonomies %}
+      {%- assign taxonomy_size = 0 %}
+      {%- for pub in sorted_pubs %}
+        {%- assign include_pub = false %}
+        {%- if page.type == "categories" and pub.category == taxonomy %}
+          {%- assign include_pub = true %}
+        {%- elsif page.type == "tags" and pub.topics contains taxonomy %}
+          {%- assign include_pub = true %}
+        {%- endif %}
+        {%- if include_pub %}
+          {%- assign taxonomy_size = taxonomy_size | plus: 1 %}
+        {%- endif %}
+      {%- endfor %}
+      {%- assign taxonomy_label = taxonomy %}
+      {%- if page.type == "tags" %}
+        {%- assign taxonomy_label = site.data.publication_topics[taxonomy] | default: taxonomy %}
+      {%- endif %}
       <li>
-        {%- capture link -%}{{ page.permalink }}#{{ tag }}{%- endcapture -%}
+        {%- capture link -%}{{ page.permalink }}#{{ taxonomy }}{%- endcapture %}
         <a class="taxonomy" href="{{ link | relative_url }}">
-          <span>
-            {{ tag }}
-          </span>
-          <span class="taxonomy-count">{{ tag_size }}</span>
+          <span>{{ taxonomy_label | escape }}</span>
+          <span class="taxonomy-count">{{ taxonomy_size }}</span>
         </a>
       </li>
-    {%- endfor -%}
+    {%- endfor %}
   </ul>
 </div>
 
-<!-- Add return button here -->
-<!-- <div class="btn-group" role="group" aria-label="Navigation">
-  <a href="/publications" class="btn btn-secondary">
-    <i class="fas fa-arrow-left"></i> Return
-  </a>
-</div> -->
-
-
-{% comment %} Show pubs by taxonomy {% endcomment %}
-{%- for tag in all_tags -%}
-  <h2 id="{{ tag }}">
-    {{ tag }}
-  </h2>
+{%- for taxonomy in all_taxonomies %}
+  {%- assign taxonomy_label = taxonomy %}
+  {%- if page.type == "tags" %}
+    {%- assign taxonomy_label = site.data.publication_topics[taxonomy] | default: taxonomy %}
+  {%- endif %}
+  <h2 id="{{ taxonomy | escape }}">{{ taxonomy_label | escape }}</h2>
   <ul class="post-list-by-taxonomy">
-    {% for pub in sorted_pub %}
-      {% if pub.tags contains tag or pub.category == tag %}
+    {%- for pub in sorted_pubs %}
+      {%- assign include_pub = false %}
+      {%- if page.type == "categories" and pub.category == taxonomy %}
+        {%- assign include_pub = true %}
+      {%- elsif page.type == "tags" and pub.topics contains taxonomy %}
+        {%- assign include_pub = true %}
+      {%- endif %}
+      {%- if include_pub %}
       <li>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ pub.date | date: "%Y-%m" }}</time> &raquo; <a href="{{ pub.url | relative_url }}">{{ pub.title | escape }}</a> 
-        {% if pub.publication != "" %}
-          ({{ pub.publication | escape }})
-        {% endif %} 
+        <time datetime="{{ pub.date | date_to_xmlschema }}">{{ pub.date | date: "%Y-%m" }}</time> &raquo;
+        <a href="{{ pub.url | relative_url }}">{{ pub.title | escape }}</a>
+        {%- if pub.publication != "" %} ({{ pub.publication | escape }}){% endif %}
       </li>
-      {% endif %}
-      {%- endfor -%}
+      {%- endif %}
+    {%- endfor %}
   </ul>
-  <a href="#" onclick="backToTop()" class="back-to-top">Top &#8648;</a>        
-{%- endfor -%}
-
-<!-- <pre>{{ log_info }}</pre> -->
-
-
+  <a href="#" onclick="backToTop()" class="back-to-top">Top &#8648;</a>
+{%- endfor %}
 
 <script>
   function backToTop() {

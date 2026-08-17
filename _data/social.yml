@@ -1,7 +1,7 @@
 - title: Email
   url: mailto:dqwang122@gmail.com
   icon: fas fa-envelope
-- title: Scolar
+- title: Scholar
   url: https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ
   icon: fab fa-google
 - title: GitHub
@@ -10,6 +10,6 @@
 - title: Twitter
   url: https://twitter.com/dqwang122
   icon: fab fa-twitter
-- title: Linkedin
+- title: LinkedIn
   url: https://www.linkedin.com/in/danqing-wang-86a24a234/
   icon: fab fa-linkedin-in

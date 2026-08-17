@@ -1,0 +1,33 @@
+# Each filter matches a publication when any listed topic is present.
+
+- id: all
+  label: All
+  topics: []
+
+- id: agents
+  label: Agents
+  topics:
+    - agents
+    - multi-agent
+    - code-agents
+
+- id: multi-agent
+  label: Multi-agent
+  topics:
+    - multi-agent
+
+- id: evaluation
+  label: Evaluation
+  topics:
+    - evaluation
+    - benchmark
+
+- id: science
+  label: AI for Science
+  topics:
+    - science
+
+- id: summarization
+  label: Summarization
+  topics:
+    - summarization

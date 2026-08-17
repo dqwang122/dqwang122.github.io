@@ -31,7 +31,7 @@
     {% if site.data.social -%}
       {% for social in site.data.social -%}
         <li class="pure-menu-item">
-          <a class="social-icon pure-menu-link" href="{{ social.url }}">
+          <a class="social-icon pure-menu-link" href="{{ social.url | escape }}">
             <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
           </a>
         </li>
@@ -39,7 +39,8 @@
     {%- endif %}
       <li class="pure-menu-item">
         <button id="theme-toggle" class="social-icon theme-toggle" type="button" aria-label="Switch theme">
-          <i class="fas fa-moon" aria-hidden="true"></i>
+          <span class="theme-icon theme-icon-moon" aria-hidden="true"><i class="fas fa-moon"></i></span>
+          <span class="theme-icon theme-icon-sun" aria-hidden="true"><i class="fas fa-sun"></i></span>
         </button>
       </li>
     </ul>

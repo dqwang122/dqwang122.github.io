@@ -2,373 +2,69 @@
 layout: page-head
 permalink: /publications/
 title: Publications
+body_class: publications-page
 ---
 
 # Publications
 
-Full publication list can be found in [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ).
+<p class="publications-intro">A complete citation record is available on <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=mAo_lUwAAAAJ">Google Scholar</a>.</p>
 
+<!-- <nav class="publication-views" aria-label="Alternative publication views"> -->
+  <!-- <a href="/publications/years/"><i class="fas fa-calendar-alt" aria-hidden="true"></i> Year index</a> -->
+  <!-- <a href="/publications/tags/"><i class="fas fa-tags" aria-hidden="true"></i> Topic index</a> -->
+  <!-- <a href="/publications/confs/"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Conference index</a> -->
+<!-- </nav> -->
 
-## 2026
-
-<table>
-  <tr>
-    <td width="70%">
-      <h4>
-        <img src="/assets/images/CrabBench/crab_nobg.png" alt="" width="35" height="35" style="display: inline-block; vertical-align: middle; margin: 0 0.35em 0 0;">CRAB-Bench: Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation
-        <!-- <a href=""><i class="fa fa-link fa-sm"></i></a> -->
-        <!-- <a href=""><i class="fa-home"></i></a> -->
-        <a href="https://arxiv.org/abs/2606.01815"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Akshay Sivaraman, Lei Li <br/>
-      <em>Under submission, 2026</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/CrabBench.jpg" alt="CrabBench" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-</table>
-
-## 2025
-
-<table>
-  <tr>
-    <td width="70%">
-      <h4>
-        Learning to Interrupt in Language-based Multi-agent Communication
-        <!-- <a href=""><i class="fa fa-link fa-sm"></i></a> -->
-        <!-- <a href=""><i class="fa-home"></i></a> -->
-        <a href="https://arxiv.org/abs/2604.06452"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Da Yin, Ruta Mehta, Lei Li, Asli Celikyilmaz, and Ansong Ni <br/>
-      <em>CoLM 2026</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/HandRaiser.jpg" alt="HandRaiser" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks
-        <a href="https://leililab.github.io/susvibes-leaderboard/"><i class="fa fa-link fa-home"></i></a>
-        <!-- <a href=""><i class="fa-home"></i></a> -->
-      </h4>
-      Songwen Zhao, <em><strong>Danqing Wang</strong></em>, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li <br/>
-      <em>ICML 2026</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/SusVibes.jpg" alt="SusVibes" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        <img src="/assets/images/Debate/tree_nobg.png" alt="" width="35" height="35" style="display: inline-block; vertical-align: middle; margin: 0 0.35em 0 0;">Strategic Planning and Rationalizing on Trees Make LLMs Better Debaters
-        <a href="/projects/Debate/"><i class="fa fa-link fa-home"></i></a>
-        <!-- <a href=""><i class="fa-home"></i></a> -->
-      </h4>
-      <em><strong>Danqing Wang*</strong></em>, Zhuorui Ye*, Xinran Zhao*, Fei Fang, Lei Li <br/>
-      <em>ICLR 2026</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/TreeDebater.jpg" alt="TreeDebater" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        RARE: Retrieval-Aware Robustness Evaluation for Retrieval-Augmented Generation Systems
-        <!-- <a href="https://arxiv.org/abs/2506.00789"><i class="fa fa-link fa-sm"></i></a> -->
-        <a href="https://leililab.github.io/RARE-Page/"><i class="fa fa-link fa-home"></i></a>
-      </h4>
-      Yixiao Zeng, Tianyu Cao, <em><strong>Danqing Wang</strong></em>, Xinran Zhao, Zimeng Qiu, Morteza Ziyadi, Tongshuang Wu, Lei Li <br/>
-      <em>arXiv preprint, 2025</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/RARE.jpg" alt="RARE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-</table>
-
-## 2024
-<table>
-
-  <tr>
-    <td width="70%">
-      <h4>
-        Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models
-        <a href="https://arxiv.org/abs/2410.20007"><i class="fa fa-link fa-sm"></i></a>
-        <!-- <a href=""><i class="fa fa-home"></i></a> -->
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Zhuorui Ye, Fei Fang, Lei Li <br/>
-      <em>arXiv preprint, 2024</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/CoPlanner.jpg" alt="CoPlanner" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        TypedThinker: Typed Thinking Improves Large Language Model Reasoning
-        <a href="/projects/TypedThinker/"><i class="fa fa-link fa-home"></i></a>
-        <!-- <a href=""><i class="fa fa-home"></i></a> -->
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, JianXin Ma, Fei Fang, Lei Li <br/>
-      <em>ICLR 2025</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/TypedThinker.jpg" alt="TypedThinker" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        Scaling LLM Inference with Optimized Sample Compute Allocation
-        <a href="https://arxiv.org/abs/2410.22480"><i class="fa fa-link fa-sm"></i></a>
-        <!-- <a href=""><i class="fa fa-home"></i></a> -->
-      </h4>
-      <em>Kexun Zhang*, Shang Zhou*, <strong>Danqing Wang</strong></em>, William Yang Wang, Lei Li <br/>
-      <em>NAACL 2025</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/OSCA.jpg" alt="OSCA" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        Learning Personalized Alignment for Evaluating Open-ended Text Generation
-        <a href="https://arxiv.org/pdf/2310.03304.pdf"><i class="fa fa-home"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian <br/>
-      <em>EMNLP 2024</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/PerSE.jpg" alt="PerSE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        DNALONGBENCH: A Benchmark Suite for Long-Range DNA Prediction Tasks
-        <a href="https://www.nature.com/articles/s41467-025-65077-4"><i class="fa fa-link fa-sm"></i></a>
-        <!-- <a href=""><i class="fa fa-home"></i></a> -->
-      </h4>
-      Wenduo Cheng, Zhenqiao Song, Yang Zhang, Shike Wang, <em><strong>Danqing Wang</strong></em>, Muyu Yang, Lei Li & Jian Ma<br/>
-      <em>Nature Communications</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/DNALongBench.jpg" alt="DNALongBench" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        Global Human-guided Counterfactual Explanations for Molecular Properties via Reinforcement Learning
-        <a href="https://arxiv.org/abs/2406.13869"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      <em><strong>Danqing Wang*</strong></em>, Antonis Antoniades*, Kha-Dinh Luong, Edwin Zhang, Mert Kosan, Jiachen Li, William Yang Wang, Ambuj Singh, Lei Li <br/>
-      <em>KDD 2024</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/RLHEX.jpg" alt="RLHEX" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-</table>
-
-## 2023
-<table>
-  <tr>
-    <td width="70%">
-      <h4>
-        Learning from Mistakes via Cooperative Study Assistant for Large Language Models 
-        <a href="/projects/SALAM/"><i class="fa fa-home"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Lei Li <br/>
-      <em>EMNLP 2023</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/SALAM.jpg" alt="SALAM" style="height:150px;" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        InstructScore: Towards Explainable Text Generation Evaluation with Automatic Feedback
-        <!-- <a href="https://leililab.github.io/projects/instructscore/"><i class="fa fa-home"></i></a> -->
-        <a href="https://aclanthology.org/2023.emnlp-main.365/"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      Wenda Xu, <em><strong>Danqing Wang</strong></em>, Liangming Pan, Zhenqiao Song, Markus Freitag, William Yang Wang, Lei Li <br/>
-      <em>EMNLP 2023</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/InstructScore2.jpg" alt="Instructscore" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        ALGO: Synthesizing Algorithmic Programs with Generated Oracle Verifiers
-        <a href="https://arxiv.org/pdf/2305.14591"><i class="fa fa-link fa-sm"></i></a>
-        <!-- <a href="https://leililab.github.io/projects/algo/"><i class="fa fa-home"></i></a> -->
-      </h4>
-      Kexun Zhang, <em><strong>Danqing Wang</strong></em>, Jingtao Xia, William Yang Wang, Lei Li <br/>
-      <em>NeurIPS 2023</em>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/ALGO.jpg" alt="ATUE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        Accelerating Antimicrobial Peptide Discovery with Latent Structure
-        <a href="/projects/LSSAMP"><i class="fa fa-home"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Zeyu Wen, Fei Ye, Lei Li, Hao Zhou <br/>
-      <em>KDD 2023</em>
-      <br/><br/>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/LSSAMP.jpg" alt="LSSAMP" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-</table>
-
-## 2022
-<table>
-  <tr>
-    <td width="70%">
-      <h4>
-        On Pre-training Language Model for Antibody
-        <a href="/projects/EATLM/"><i class="fa fa-home"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Fei Ye, Hao Zhou <br/>
-      <em>ICLR 2023</em>
-      <br/><br/>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/EATLM.jpg" alt="ATUE" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-</table>
-
-## 2021
-<table>
-  <tr>
-    <td width="70%">
-      <h4>
-        Contrastive Aligned Joint Learning for Multilingual Summarization
-        <a href="/projects/CALMS"><i class="fa fa-home"></i></a>  
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Jiaze Chen, Hao Zhou, Xipeng Qiu, Lei Li  <br/>
-      <em>ACL Findings 2021</em>
-      <br/><br/>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/CALMS/CALMS.jpg" alt="CALMS" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        CNewSum: A Large-scale Chinese News Summarization Dataset with Human-annotated Adequacy and Deducibility Level
-        <a href="/projects/CNewSum"><i class="fa fa-home"></i></a>   
-        <br/>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>, Jiaze Chen, Xianze Wu, Hao Zhou, Lei Li  <br/>
-      <em>NLPCC 2021</em>
-      <br/><br/>
-    </td>
-    <td width="30%" align="right" valign="middle"><img src="/assets/images/CNewSum/motivation.jpg" alt="CNewSum" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-</table>
-
-<h2> 2020 </h2>
-<table>
-  <tr>
-    <td width="70%">
-      <h4>
-        Heterogeneous Graph Neural Networks for Extractive Document Summarization
-        <a href="https://aclanthology.org/2020.acl-main.553"><i class="fa fa-link fa-sm"></i></a>     
-        <br/>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>*, Pengfei Liu*, Yining Zheng, Xipeng Qiu, Xuanjing Huang  <br/>
-      <em>ACL 2020</em>
-      <br/><br/>
-    </td>
-    <td width="30%" align="middle" valign="middle"><img src="/assets/images/HSG.jpg" alt="HSG" style="height:200px;" onclick="zoomImage(this)" style="cursor: pointer;"></td>
-  </tr>
-  <!-- <tr>
-    <td width="70%">
-      <h4>
-        Enhancing Scientific Papers Summarization with Citation Graph
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17482"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      Chenxin An, Ming Zhong, Yiran Chen, <em><strong>Danqing Wang</strong></em>, Xipeng Qiu, Xuanjing Huang <br/>
-      <em>Proceedings of the AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2021</em>
-      <br/><br/>
-    </td>
-    <td width="30%"></td>
-  </tr> -->
-  <tr>
-    <td width="70%">
-      <h4>
-        Extractive Summarization as Text Matching
-        <a href="https://arxiv.org/abs/2004.08795"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      Ming Zhong*, Pengfei Liu*, Yiran Chen, <em><strong>Danqing Wang</strong></em>, Xipeng Qiu, Xuanjing Huang <br/>
-      <em>ACL 2020</em>
-      <br/><br/>
-    </td>
-    <td width="30%"></td>
-  </tr>
-  <!-- <tr>
-    <td width="70%">
-      <h4>
-        A Closer Look at Data Bias in Neural Extractive Summarization Models
-        <a href="https://arxiv.org/abs/1909.13705"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      Ming Zhong*, <em><strong>Danqing Wang</strong></em>*, Pengfei Liu*, Xipeng Qiu, Xuanjing Huang <br/>
-      <em>Workshop on New Frontiers in Summarization of EMNLP, 2019</em>
-      <br/><br/>
-    </td>
-    <td width="30%"></td>
-  </tr> -->
-  <tr>
-    <td width="70%">
-      <h4>
-        Searching for Effective Neural Extractive Summarization: What Works and What's Next
-        <a href="https://arxiv.org/abs/1907.03491"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      Ming Zhong*, Pengfei Liu*, <em><strong>Danqing Wang</strong></em>*, Xipeng Qiu, Xuanjing Huang   <br/>
-      <em>ACL 2019</em>
-      <br/><br/>
-    </td>
-    <td width="30%"></td>
-  </tr>
-  <tr>
-    <td width="70%">
-      <h4>
-        Exploring Domain Shift in Extractive Text Summarization
-        <a href="https://arxiv.org/abs/1908.11664"><i class="fa fa-link fa-sm"></i></a>
-      </h4>
-      <em><strong>Danqing Wang</strong></em>*, Pengfei Liu*, Ming Zhong, Jie Fu, Xipeng Qiu, Xuanjing Huang   <br/>
-      <em>arXiv preprint, 2019</em>
-      <br/><br/>
-    </td>
-    <td width="30%"></td>
-  </tr>
-  </table>
-<!-- </details> -->
-
-
-<!-- Add buttons here -->
-<div class="btn-group" role="group" aria-label="Sort Options">
-  <a href="years"><i class="fas fa-calendar-alt"></i> Sorted by Year</a>
-  <a href="tags"><i class="fas fa-tags"></i> Sorted by Tags</a>
-  <!-- <a href="topics"><i class="fas fa-bookmark"></i> Sorted by Topics</a> -->
-  <a href="confs"><i class="fas fa-graduation-cap"></i> Sorted by Conference</a>
+<div class="publication-filters" role="group" aria-label="Filter publications by topic">
+  {%- for filter in site.data.publication_filters %}
+  <button type="button"
+          data-publication-filter="{{ filter.id | escape }}"
+          data-publication-topics="{{ filter.topics | join: ' ' | escape }}"
+          aria-pressed="{% if filter.id == 'all' %}true{% else %}false{% endif %}">{{ filter.label | escape }}</button>
+  {%- endfor %}
 </div>
+<p id="publication-filter-status" class="publication-filter-status" aria-live="polite"></p>
 
+{%- for section in site.data.publication_sections %}
+  {%- assign section_publications = site.data.pubs | where: "section", section.id %}
+  {%- if section_publications.size > 0 %}
+<section class="publication-group" data-publication-group>
+  <h2>{{ section.label | escape }}</h2>
+  <div class="publication-list">
+    {%- for pub in section_publications %}
+    <article class="publication-item{% unless pub.image %} publication-item-no-image{% endunless %}"
+             data-topics="{{ pub.topics | join: ' ' | escape }}">
+      <div class="publication-details">
+        <div class="publication-meta">
+          <span class="publication-venue">{{ pub.venue | escape }}</span>
+          {%- for topic in pub.topics %}
+            {%- assign topic_label = site.data.publication_topics[topic] | default: topic %}
+          <span class="publication-topic">{{ topic_label | escape }}</span>
+          {%- endfor %}
+        </div>
+        <h3>{{ pub.title | escape }}</h3>
+        <p class="publication-authors">{{ pub.authors_html }}</p>
+        {%- if pub.links.size > 0 %}
+        <nav class="publication-links" aria-label="Links for {{ pub.title | escape }}">
+          {%- for link in pub.links %}
+          <a href="{{ link.url | escape }}"><i class="{{ link.icon | escape }}" aria-hidden="true"></i> {{ link.label | escape }}</a>
+          {%- endfor %}
+        </nav>
+        {%- endif %}
+      </div>
+      {%- if pub.image %}
+      <button class="publication-figure"
+              type="button"
+              onclick="zoomImage(this.querySelector('img'))"
+              aria-label="Zoom the {{ pub.title | escape }} figure">
+        <img src="{{ pub.image | escape }}" alt="{{ pub.image_alt | escape }}">
+      </button>
+      {%- endif %}
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+  {%- endif %}
+{%- endfor %}
 
-
-<script>
-function zoomImage(img) {
-    // Create modal container
-    const modal = document.createElement('div');
-    modal.style.position = 'fixed';
-    modal.style.zIndex = '1000';
-    modal.style.left = '0';
-    modal.style.top = '0';
-    modal.style.width = '100%';
-    modal.style.height = '100%';
-    modal.style.backgroundColor = 'rgba(0,0,0,0.9)';
-    modal.style.display = 'flex';
-    modal.style.alignItems = 'center';
-    modal.style.justifyContent = 'center';
-    
-    // Create zoomed image
-    const zoomedImg = document.createElement('img');
-    zoomedImg.src = img.src;
-    zoomedImg.style.maxWidth = '90%';
-    zoomedImg.style.maxHeight = '90%';
-    zoomedImg.style.objectFit = 'contain';
-    
-    // Add click handler to close modal
-    modal.onclick = function() {
-        document.body.removeChild(modal);
-    };
-    
-    modal.appendChild(zoomedImg);
-    document.body.appendChild(modal);
-}
-</script>
+<p class="publication-note">* Equal contribution.</p>
