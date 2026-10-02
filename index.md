@@ -95,7 +95,7 @@ Before joining CMU, I was a PhD student and member of the [UCSB NLP Group](https
 
 ## Selected Experience
 
-* **May 2026-present:** Research Scientist Intern, Microsoft Research
+* **May 2026-Aug 2026:** Research Scientist Intern, Microsoft Research, working on coding agent security
   * Mentors: [Baolin Peng](https://www.microsoft.com/en-us/research/people/baolinpeng/) and [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/)
 * **May-Oct 2025:** Research Scientist Intern, Meta AI (FAIR), working on multi-agent communication
   * Mentors: [Ansong Ni](https://niansong1996.github.io/) and [Asli Celikyilmaz](http://asli.us/)

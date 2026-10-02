@@ -1,13 +1,15 @@
 # Canonical topic ID to visible badge label.
 
 agents: Agents
-multi-agent: Multi-agent
-code-agents: Code Agents
+multi-agent: Multi-Agent
+code-agents: Coding Agents
 safety: Safety
+security: Security
 robustness: Robustness
 evaluation: Evaluation
 benchmark: Benchmark
 science: AI for Science
+human-ai: Human-AI
 summarization: Summarization
 communication: Communication
 competition: Competition

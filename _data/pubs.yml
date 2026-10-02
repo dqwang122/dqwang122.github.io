@@ -2,6 +2,53 @@
 # `publication_filters.yml` defines which topic IDs each filter includes.
 # `show_on_projects` and `project_*` fields drive the Projects portfolio.
 
+
+- id: aura-forge
+  title: "AuraForge: Scaling Security Supervision for Training Coding Agents"
+  date: "2026-10-01"
+  category: Under Review
+  publication: ""
+  venue: Under Review 2026
+  section: under-review
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 3
+  project_name: AuraForge
+  project_summary: "Beyond human tests: synthesis security tests are better choice for training"
+  topics: [security, code-agents]
+  authors_html: "<strong>Danqing Wang</strong>, Songwen Zhao, Harsh Sharma, Jierui Wang, Andre Vicente Duarte, Ivan Bercovich, Lei Li"
+  url: https://arxiv.org/abs/2610.00850
+  links:
+    - {label: Paper, url: "https://arxiv.org/abs/2610.00850", icon: "fas fa-file-alt"}
+    - {label: Dataset, url: "https://huggingface.co/datasets/dqwang122/AuraGym", icon: "fas fa-database"}
+  image: /assets/images/auraforge.jpg
+  image_alt: Overview of AuraForge
+
+- id: securevibe
+  title: "SecureVibe: Making Vibe Coding More Secure"
+  date: "2026-10-01"
+  category: Under Review
+  publication: ""
+  venue: Under Review 2026
+  section: under-review
+  show_on_main: true
+  show_on_projects: true
+  project_group: agentic
+  project_order: 1
+  project_name: SecureVibe
+  project_summary: "Teaching coding agents to plan, code, and test for the hidden security requirements with SFT, RL and OPSD"
+  topics: [security, code-agents]
+  authors_html: "<strong>Danqing Wang</strong>, Baolin Peng, Zhepei Wei, Isadora White, Wenlin Yao, Hao Cheng, Qianhui Wu, Minseon Kim, Xingdi Yuan, Lei Li, Jianfeng Gao"
+  url: https://arxiv.org/abs/2609.38606
+  links:
+    - {label: Project, url: "https://microsoft.github.io/Orchard-Agentic/securevibe/", icon: "fas fa-home"}
+    - {label: Paper, url: "https://arxiv.org/abs/2609.38606", icon: "fas fa-file-alt"}
+    - {label: Code, url: "https://github.com/MSR-Orchard/SecureVibe", icon: "fab fa-github"}
+    - {label: Dataset, url: "https://huggingface.co/datasets/dqwang122/SafeVibe", icon: "fas fa-database"}
+  image: /assets/images/securevibe.jpg
+  image_alt: Overview of SecureVibe
+
 - id: crab-bench
   title: "CRAB-Bench: Evaluating LLM Agents under Complex Task Dependencies and Human-aligned User Simulation"
   date: "2026-06-01"
@@ -10,7 +57,7 @@
   venue: Under Review 2026
   section: under-review
   show_on_main: true
-  topics: [multi-agent, benchmark]
+  topics: [multi-agent, benchmark, human-ai]
   authors_html: "<strong>Danqing Wang</strong>, Akshay Sivaraman, Lei Li"
   url: https://arxiv.org/abs/2606.01815
   links:
@@ -44,10 +91,10 @@
   show_on_main: true
   show_on_projects: true
   project_group: agentic
-  project_order: 2
+  project_order: 3
   project_name: SusVibes
   project_summary: "SusVibes benchmarks 187 real-world feature requests and reveals a sharp gap between functional correctness and security in code produced by leading coding agents."
-  topics: [safety, code-agents, benchmark]
+  topics: [security, code-agents, benchmark]
   authors_html: "Songwen Zhao, <strong>Danqing Wang</strong>, Kexun Zhang, Jiaxuan Luo, Zhuo Li, Lei Li"
   url: https://arxiv.org/abs/2512.03262
   links:
@@ -68,7 +115,7 @@
   show_on_main: true
   show_on_projects: true
   project_group: agentic
-  project_order: 1
+  project_order: 2
   project_name: TreeDebater
   project_summary: "TreeDebater uses rehearsal and debate-flow trees to anticipate attacks, track active arguments, and allocate limited speaking time for more persuasive LLM debates."
   topics: [competition, multi-agent]
